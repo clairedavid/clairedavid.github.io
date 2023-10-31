@@ -21,14 +21,14 @@ I am an experimental particle physicist, with more than ten years experience wor
 __What fascinates me__  
 The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter for answering a very simple question: what is everything made of?  
 
-__Current missions:__  
+__Current missions__  
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> Program & Research Manager of Master's [AI For Science](https://ai.aims.ac.za/)   
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> Resident Researcher in Machine Learning based at [AIMS South Africa](https://aims.ac.za/)
 
-__Research interests:__  
+__Research interests__  
 Machine learning for particle physics, fast-ML, anomaly detection, AI for humanity, ethics in AI, sustainability, education in Africa
 
-__Personal hobbies:__  
+__Personal hobbies__  
 Endurance sports, circus, dance
 
 <br><br>
