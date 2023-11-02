@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <br>
-I am an experimental particle physicist, with more than ten years experience working for the [ATLAS detector](https://atlas.cern/) at the [CERN](https://www.home.cern/) [Large Hadron Collider](https://home.web.cern.ch/science/accelerators/large-hadron-collider). In practice, I get to do data taking, statistical modelling, programming, machine learning and even soldering or tweaking hardware! All of this in a vibrant and international community full of inspiring minds.
+I am an experimental particle physicist, with more than ten years experience working on the [ATLAS Experiment](https://atlas.cern/) at the [CERN](https://www.home.cern/) [Large Hadron Collider](https://home.web.cern.ch/science/accelerators/large-hadron-collider). In practice, I get to do data taking, statistical modelling, programming, machine learning and even soldering or tweaking hardware! All of this in a vibrant and international community full of inspiring minds.
 
 __What fascinates me__  
 The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter for answering a very simple question: what is everything made of?  

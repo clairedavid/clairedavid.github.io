@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-## How is started
+## How it started
 
 At around 15 I had a lot of questions for my science teachers. So many questions. It started to become uncomfortable and I was thinking of stopping asking questions once and for all. But in the following summer I was sent to a science camp where I met people my age having fun with mathematical riddles until 3:00 AM. Discomfort turned into an acknowledged passion. These new friends had the book “The Universe in a Nutshell”, by Stephen Hawking. When I saw a picture of one of the big particle detectors at CERN (at that time under construction), I became a fan. By then my life plan was “I want to be near particle detectors”.  
   
@@ -20,11 +20,11 @@ During this adventure into knowledge-making, I also discovered another passion: 
 <br>
 
 ## A special year in Africa
-In the middle of my tenure track as assistant professor, I decided to take a leave for an entire year. Not a sabbatical but a leave of absence (without pay). Why? I was frustrated to not have the time to learn, especially the AI tools I was using in my own research. I was also perturbed by climate change and biodiversity collapse. What's the point of doing high energy physics on a burning and dying planet?  
+In the middle of my tenure track as assistant professor, I decided to take a leave for an entire year. Not a sabbatical but a leave of absence. Why? I was frustrated to not have the time to learn, especially the AI tools I was using in my own research. I was also perturbed by climate change and biodiversity collapse. What's the point of doing high energy physics on a burning and dying planet?  
 
-From September 2022, I trained myself in AI (diving into the math of machine learning) to build the dream course I have always wanted to teach. I left for South Africa in November and attended the African School of Physics ASP2022 in Gqebera, where I received several invitations. 
+From September 2022, I trained myself in AI - diving into the math of machine learning - to build the dream course I have always wanted to teach. I left for South Africa in November and attended the [African School of Physics](https://www.africanschoolofphysics.org/) [ASP2022](https://www.africanschoolofphysics.org/asp2022/) in Gqeberha, where I received several invitations. 
 
-Overall, I spent six months in the continent and gave colloquia in eight African countries. I taught my course at AIMS Senegal, South Africa and Ghana, visited the other AIMS centres of Cameroon and Rwanda. I took part of the Science and Technology Week festival in Congo DRC where I introduced the CERN Large Hadron Collider to 5,000 Congolese high school students.
+Overall, I spent six months in the continent and gave colloquia in eight African countries. I taught my course at AIMS Senegal, South Africa and Ghana, visited the other AIMS centres of Cameroon and Rwanda. I took part of the [Science and Technology Week festival in Congo DRC](https://www.semainedelasciencerdc.org/programme-edition-2023/) where I introduced the CERN Large Hadron Collider to 5,000 Congolese high school students.
 
 I was sponsored by the [Arthur B McDonald Canadian Astroparticle Physics Research Institute](https://mcdonaldinstitute.ca), who named me their ambassador. You can read more about my special year on their news page in [this article](https://mcdonaldinstitute.ca/news/claire-david/).
 
