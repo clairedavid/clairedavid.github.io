@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 I am an experimental particle physicist, with more than ten years experience working on the [ATLAS Experiment](https://atlas.cern/) at the [CERN](https://www.home.cern/) [Large Hadron Collider](https://home.web.cern.ch/science/accelerators/large-hadron-collider). In practice, I get to do data taking, statistical modelling, programming, machine learning and even soldering or tweaking hardware! All of this in a vibrant and international community full of inspiring minds.
 
 __What fascinates me__  
-The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter for answering a very simple question: what is everything made of?  
+The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter to ultimately answer a very simple question: what is everything made of?  
 
 __Current missions__  
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> Program & Research Manager of Master's [AI For Science](https://ai.aims.ac.za/)   
