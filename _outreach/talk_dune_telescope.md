@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The DUNE Experiment
+title: <small>The DUNE Experiment</small>
 description: Embark on the neutrino telescope to pierce the secrets of matter!
 img: assets/img/dune_telescope.png
 importance: 2
@@ -18,7 +18,7 @@ From 40 - 45 minutes.
 
 __Recording__  
 
-In May 2021 I presented at the online Speaker’s Night of the Royal Astronomical Society of Canada Toronto, Canada.  
+May 19, 2021: invited to the online Speaker’s Night of the Royal Astronomical Society of Canada Toronto, Canada.  
 
 <br>
 <div class="embed-responsive embed-responsive-16by9">
