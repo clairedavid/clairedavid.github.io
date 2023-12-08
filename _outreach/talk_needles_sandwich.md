@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <small>Sorting needles & cooling a sandwich</small>
+title: Sorting needles & cooling a sandwich
 description: What I did during my postdoc.
 img: assets/img/needles_sandwich.png
 importance: 4

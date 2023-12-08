@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <small>The DUNE Experiment</small>
+title: The DUNE Experiment
 description: Embark on the neutrino telescope to pierce the secrets of matter!
 img: assets/img/dune_telescope.png
 importance: 2

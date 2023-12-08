@@ -636,6 +636,10 @@ footer.sticky-bottom {
     }
   }
 
+  .card-title {
+    font-size: 1.75rem;
+  }
+
   .card {
     img {
       width: 100%;
@@ -645,6 +649,8 @@ footer.sticky-bottom {
   .card-item {
     width: auto;
     margin-bottom: 10px;
+
+
 
     .row {
       display: flex;

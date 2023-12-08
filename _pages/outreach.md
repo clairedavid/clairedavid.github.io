@@ -5,7 +5,7 @@ title: Outreach
 description: Sharing the awe and triggering future scientists along the way.
 nav: true
 nav_order: 7
-display_categories: [Talks, Festivals]
+display_categories: [Talks, Festivals, Panels]
 ---
 
 

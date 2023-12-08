@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <small>A journey inside matter</small>
+title: A journey inside matter
 description: Experimental particle physics with the ATLAS & DUNE experiments.
 img: assets/img/atlas_dune_talk.png
 importance: 1

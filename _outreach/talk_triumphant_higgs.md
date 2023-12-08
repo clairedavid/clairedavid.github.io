@@ -1,7 +1,7 @@
 ---
 layout: page
-title: <small>The triumphant discovery of the Higgs boson</small>
-description: A half-century long journey.
+title: The triumphant discovery of the Higgs boson
+description: A half-a-century-long journey.
 img: assets/img/higgs_discovery_1.png
 importance: 3
 category: Talks
