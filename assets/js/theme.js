@@ -1,12 +1,12 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
-  if (theme == "dark") {
-    setTheme("light");
-  } else {
+  if (theme == "light") {
     setTheme("dark");
+  } else {
+    setTheme("light");
   }
-};
+ }; 
 
 let setTheme = (theme) => {
   transTheme();
