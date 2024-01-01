@@ -9,8 +9,7 @@ last_name:
 email: claired@aims.ac.za
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Life Is A Learning, Investigating, Sharing Experiment.
-footer_text: >
-  African Institute for Mathematical Sciences (South Africa), 6 Melrose Road, Muizenberg, Cape Town, South Africa 
+footer_text: 
 keywords: aims, ai, ml, physics, cern # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

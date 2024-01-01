@@ -24,7 +24,7 @@ The figure behind this event: Professor Raïssa Malu. Physicist and author born 
 
 I met Raïssa Malu at the African School of Physics of December 2022 (ASP2022) and she invited me for the special 10<sup>th</sup> edition in April 2023. I had the honour to be a keynote speaker and showcase the ATLAS and DUNE experiments at universities in Kinshasa and Mbanza-Ngungu. The SST scientific director Dora Muanda trained volunteering local students to prepare and animate booths at the Village of Sciences. A total of 500 nearby schools visited the Institut de la Gombe over two days. I had the priviledge to showcase CERN's Large Hadron Collider and the ATLAS Experiment to more than 10,000 students!
 
-The festival is much more than the Village of Sciences: there were conferences, panels, opening and closing ceremonies: have a look at the [summary of SST 10<sup>th</sup> edition 2023](https://www.semainedelasciencerdc.org/programme-edition-2023/)
+The festival is much more than the Village of Sciences: there were conferences, panels, opening and closing ceremonies: have a look at the [summary of SST 10<sup>th</sup> edition 2023](https://www.semainedelasciencerdc.org/programme-edition-2023/).
 
 <img src="/assets/img/sst2023_booth_cern_scatter.jpg" class="img-fluid rounded z-depth-1" alt="SST 2023 Village ATLAS booth ">
 <div class="caption">
