@@ -18,9 +18,9 @@ A gentle introduction into the basics algorithms of supervised and unsupervised 
 __Role:__  Creator and main instructor. Designed for AIMS.  
 __Aimed at :__ Graduate students (AIMS students must have a Bachelor's in a mathematical science field).  
 __Format:__ Three-week block of courses totalling 40 hours of lectures and tutorials.  
-__Previously taught:__  AIMS Senegal (Jan. 2023), AIMS South Africa (Feb. 2023 & Sept. 2023), AIMS Ghana (May 2023).  
-__Incoming sessions:__  AIMS Senegal (Jan. 2024), AIMS Cameroon (Feb. 2024).  
-More on the [Course Website](https://clairedavid.github.io/intro_to_ml/intro.html).
+__Previously taught:__  AIMS Senegal (Jan. 2023 & Jan. 2024), AIMS South Africa (Feb. 2023 & Sept. 2023), AIMS Ghana (May 2023).  
+__Incoming sessions:__  AIMS Cameroon (Feb. 2024)  
+Go to the [Course Website](https://clairedavid.github.io/intro_to_ml/intro.html).
 
 <br>    
 
@@ -30,7 +30,7 @@ __Role:__  Main instructor.
 __Aimed at:__ From undergrads to emeritus professors - diversity in age is encouraged!  
 __Format:__ One-day workshop with 3 hours theory (morning) and 3 hours practice (afternoon).  
 __Previously taught:__  University of Johannesburg (March 2023), AIMS Ghana (April 2023)  
-(If you are interested for your institution, please send me an email)
+☝️ If you are interested for your institution, please send me an email ☺️.
 
 <br>  
 

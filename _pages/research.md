@@ -6,7 +6,14 @@ description: I play LEGO for a living. The tiniest pieces of LEGO.
 nav: true
 nav_order: 4
 ---
+
+__My field__  
+I am an experimental particle physicist, with more than ten years experience working on the [ATLAS Experiment](https://atlas.cern/) at the [CERN](https://www.home.cern/) [Large Hadron Collider](https://home.web.cern.ch/science/accelerators/large-hadron-collider). In practice, I get to do data taking, statistical modelling, programming, machine learning and even soldering or tweaking hardware! All of this in a vibrant and international community full of inspiring minds.
+
+__What fascinates me__  
+The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter to ultimately answer a very simple question: what is everything made of? 
 <div class="projects"><h2 class="category">Current research</h2></div>  
+
 
 ### The ATLAS detector at the CERN Large Hadron Collider 
 

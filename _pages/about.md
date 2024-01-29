@@ -16,20 +16,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <br>
-I am an experimental particle physicist, with more than ten years experience working on the [ATLAS Experiment](https://atlas.cern/) at the [CERN](https://www.home.cern/) [Large Hadron Collider](https://home.web.cern.ch/science/accelerators/large-hadron-collider). In practice, I get to do data taking, statistical modelling, programming, machine learning and even soldering or tweaking hardware! All of this in a vibrant and international community full of inspiring minds.
 
-__What fascinates me__  
-The mere fact that we, as a species, are building the most gigantic and complex machines to discover the tiniest pieces of matter to ultimately answer a very simple question: what is everything made of?  
+#### Experimental Particle Physicist
+<br>
 
-__Current missions__  
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> Program & Research Manager of Master's [AI For Science](https://ai.aims.ac.za/)   
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> Resident Researcher in Machine Learning based at [AIMS South Africa](https://aims.ac.za/)
+#### Academic Director of Master's Program [AI For Science](https://ai.aims.ac.za/)
+<br>
+
+#### Lecturer & Researcher in Machine Learning
+<br>
+
+
+
+__Affiliation__  
+AIMS South Africa  -  African Institute for Mathematical Sciences 
 
 __Research interests__  
 Machine learning for particle physics, fast-ML, anomaly detection, AI for humanity, ethics in AI, sustainability, education in Africa
 
 __Personal hobbies__  
-Endurance sports, circus, dance
+Dance, endurance sports, circus
 
 <br><br>
 
