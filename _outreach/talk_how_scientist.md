@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How I became a scientist
-description: The backstory not read on my CV.<br><sub>&nbsp;</sub>
+description: The backstory not written in my CV.<br><sub>&nbsp;</sub>
 img: assets/img/how_became_scientist.png
 importance: 5
 category: Talks

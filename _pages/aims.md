@@ -10,12 +10,8 @@ Africa has the youngest population in the world. And it is growing. This represe
 
 ## What is AIMS?
 The [African Institute for Mathematical Sciences (AIMS)](https://nexteinstein.org/) is a pan-African network of excellence equipping gifted students to excel, steering the continent towards scientific, educational and economic self-sufficiency. It was created in 2003 by Prof. Neil Turok. Here is what he said during his [TED Prize Wish in 2008](https://www.ted.com/talks/neil_turok_my_wish_find_the_next_einstein_in_africa):  
-> _"So I had an idea. And the idea is very simple._  
-> _Let's set up an African Institute for Mathematical Sciences, or AIMS._  
-> _Let's recruit students from the whole of Africa and bring them together with lecturers from all over the world,_  
-> _and we'll try to give them a fantastic education."_  
-> <br>
-> Neil Turok 
+
+<img src="/assets/img/neil_quote_AIMS.png" class="img-fluid rounded z-depth-1" alt="Neil Turok">
 
   
 There are now AIMS centres in [South Africa](https://aims.ac.za/), [Senegal](https://aims-senegal.org/), [Ghana](https://aims.edu.gh/), [Cameroon](https://aims-cameroon.org/) and [Rwanda](https://aims.ac.rw/).  

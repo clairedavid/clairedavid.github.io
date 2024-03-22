@@ -16,11 +16,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <br>
+<br>
 
 #### Experimental Particle Physicist
 <br>
 
-#### Academic Director of Master's Program [AI For Science](https://ai.aims.ac.za/)
+#### Academic Director of the Master's Program [AI For Science](https://ai.aims.ac.za/)
 <br>
 
 #### Lecturer & Researcher in Machine Learning
@@ -32,7 +33,7 @@ __Affiliation__
 AIMS South Africa  -  African Institute for Mathematical Sciences 
 
 __Research interests__  
-Machine learning for particle physics, fast-ML, anomaly detection, AI for humanity, ethics in AI, sustainability, education in Africa
+Machine learning for particle physics, fast-ML, anomaly detection, AI for humanity, sustainability, education in Africa
 
 __Personal hobbies__  
 Dance, endurance sports, circus
