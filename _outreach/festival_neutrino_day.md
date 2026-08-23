@@ -5,7 +5,7 @@ description: Sanford Underground Research Facility's Free Science Festival in Le
 img: assets/img/neutrino_day.jpg
 importance: 2
 category: Festivals
-related_publications: 
+related_publications:
 ---
 
 The [Sanford Underground Research Facility (SURF)](https://sanfordlab.org) is an underground laboratory in Lead, South Dakota, USA, at the former site of the Homestake Gold Mine. It hosts world-leading research experiments in physics, biology, geology and engineering.
@@ -20,16 +20,14 @@ The [Sanford Underground Research Facility (SURF)](https://sanfordlab.org) is an
 </div>
 <div class="caption">
     Sanford Underground Research Facility in the former Homestake Gold Mine (left) and the Sanford Lab Homestake Visitor Center (right). Credits: SURF.
-</div> 
+</div>
 
-
-> __Neutrino Day is SURF's free, city-wide science festival.__
+> **Neutrino Day is SURF's free, city-wide science festival.**
 
 In 2022, I was invited to give a public talk on the DUNE Experiment, whose biggest detector components will be installed at SURF, 1.5 km below the surface.
 
-Find more about [Neutrino Day](https://neutrinoday.com/about-neutrino-day).  Some pictures and a video on the [Best-Of Neutrino Day 2022](https://sanfordlab.org/feature/best-neutrino-day-2022). 
+Find more about [Neutrino Day](https://neutrinoday.com/about-neutrino-day). Some pictures and a video on the [Best-Of Neutrino Day 2022](https://sanfordlab.org/feature/best-neutrino-day-2022).
 <br><br>
-
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -41,9 +39,7 @@ Find more about [Neutrino Day](https://neutrinoday.com/about-neutrino-day).  Som
 </div>
 <div class="caption">
     Sneak-peak of Neutrino Day 2022. Credits: SURF.
-</div> 
-
-
+</div>
 
 <br>
 [<center>Back to Outreach Menu</center>](./../)

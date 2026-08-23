@@ -23,25 +23,27 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 <br>
 <br>
 
 #### Experimental Particle Physicist
+
 <br>
 
 #### Academic Director of the Master's Program [AI For Science](https://ai.aims.ac.za/)
+
 <br>
 
 #### Lecturer & Researcher in Machine Learning
+
 <br>
 
+**Affiliation**  
+AIMS South Africa - African Institute for Mathematical Sciences
 
-
-__Affiliation__  
-AIMS South Africa  -  African Institute for Mathematical Sciences 
-
-__Research interests__  
+**Research interests**  
 Machine learning for particle physics, fast-ML, anomaly detection, AI for humanity, sustainability, education in Africa
 
-__Personal hobbies__  
+**Personal hobbies**  
 Dance, endurance sports, circus

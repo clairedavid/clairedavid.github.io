@@ -5,7 +5,7 @@ description: A half-a-century-long journey.
 img: assets/img/higgs_discovery_1.png
 importance: 3
 category: Conference
-related_publications: 
+related_publications:
 ---
 
 <div class="row justify-content-sm-center">
@@ -20,29 +20,27 @@ related_publications:
         Sneak-peak of the presentation that shows videos and some self-made simplified plots.
 </div>
 
-
 <div class="float-right w-50 p-1">
     {% include figure.liquid path="assets/img/HiggsGammaGamma.gif" title="Animated plot H → γγ" class="img-fluid rounded z-depth-1" %}
-</div> 
+</div>
 
-<br>  
+<br>
 
-This public talk retraces the fascinating journey of the long-sought Higgs boson, a missing piece in the theory of elementary particles. Why did physicists hunt for it for more than a half century? And how is it changing our world?  
+This public talk retraces the fascinating journey of the long-sought Higgs boson, a missing piece in the theory of elementary particles. Why did physicists hunt for it for more than a half century? And how is it changing our world?
 
 At the end of the talk, you will be able to understand the real plots shown during the official announcement of the discovery on July 4<sup>th</sup>, 2012!
 
-__For who?__  
+**For who?**  
 General audience.
 
-__Duration__  
+**Duration**  
 Short: 25 minutes | Long: 50 minutes.
 
-__Languages__  
+**Languages**  
 English or French
 
-__Recording__  
+**Recording**  
 February 24, 2021: invited to live broadcast at Allan I Carswell Observatory, York University, Canada. Available on [YouTube](https://youtu.be/Er1-N2NnPjc?t=156).
-
 
 <br>
 [<center>Back to Outreach Menu</center>](./../)

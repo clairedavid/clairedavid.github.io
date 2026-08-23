@@ -5,11 +5,10 @@ description: What I did during my postdoc.
 img: assets/img/needles_sandwich.png
 importance: 4
 category: Conference
-related_publications: 
+related_publications:
 ---
 
-Data analysis and detector development with ATLAS at the Large Hadron Collider.  
-
+Data analysis and detector development with ATLAS at the Large Hadron Collider.
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -24,20 +23,18 @@ Data analysis and detector development with ATLAS at the Large Hadron Collider.
 </div>
 <div class="caption">
     Sneak-peak of the slides.
-</div>  
-
+</div>
 
 This colloquium relates the research I performed during my postdoctoral years, analyzing data to find a rare production mode of the Higgs boson and making measurements in the lab on a prototype for the next generation of particle detectors at the Large Hadron Collider.
 
-__For who?__  
+**For who?**  
 From second year undergraduates.
 
-__Duration__  
+**Duration**  
 50 minutes.
 
-__Recording__  
-September 4, 2020: McGill Physical Society Colloquium  &nbsp;&nbsp;|&nbsp;&nbsp;  [abstract](https://www.physics.mcgill.ca/seminars/PSC_david.html)  &nbsp;&nbsp;|&nbsp;&nbsp;  [YouTube](https://www.youtube.com/watch?v=cYu4E7PKMRE&t=132s)
-
+**Recording**  
+September 4, 2020: McGill Physical Society Colloquium &nbsp;&nbsp;|&nbsp;&nbsp; [abstract](https://www.physics.mcgill.ca/seminars/PSC_david.html) &nbsp;&nbsp;|&nbsp;&nbsp; [YouTube](https://www.youtube.com/watch?v=cYu4E7PKMRE&t=132s)
 
 <br>
 [<center>Back to Outreach Menu</center>](./../)

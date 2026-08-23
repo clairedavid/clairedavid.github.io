@@ -5,8 +5,9 @@ description: Data analysis with ATLAS at the LHC.
 img: assets/img/atlas_masterclass.png
 importance: 6
 category: Conference
-related_publications: 
+related_publications:
 ---
+
 What do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon. More on the official website: [International Masterclasses](https://physicsmasterclasses.org/).
 
 <div class="row">
@@ -22,8 +23,7 @@ What do experimental particle physicists do? What do experimental particle physi
 </div>
 <div class="caption">
     Sneak-peak of the slides.
-</div>  
-
+</div>
 
 This talk was presented during the ATLAS Masterclass 2014 at the University of Victoria. It was organized by Vispa.
 

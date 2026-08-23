@@ -5,7 +5,7 @@ description: Experimental particle physics with the ATLAS & DUNE experiments.
 img: assets/img/atlas_dune_talk.png
 importance: 1
 category: Conference
-related_publications: 
+related_publications:
 ---
 
 <div class="row">
@@ -23,12 +23,12 @@ related_publications:
     Sneak-peak of the slides.
 </div>
 
-Experimental particle physics is a field of superlatives: highest energies (in terms of density), most powerful accelerators and biggest particle detectors. After a quick introduction of the theoretical aspects of subatomic physics, I will highlight two experiments: the ATLAS detector, one of the experiments of the Large Hadron Collider at CERN near Geneva in Switzerland, and DUNE, the Deep Underground Neutrino Experiment, future international endeavour hosted by Fermilab, US premier particle physics laboratory near Chicago, Illinois. Experimental particle physics is very pluridisciplinary: it's a collection of professions, from physicist of course, but also programmer, statistician, data scientist up to engineer for some parts. This translates into a lot of opportunities it brings for students from various backgrounds and at different levels.  
+Experimental particle physics is a field of superlatives: highest energies (in terms of density), most powerful accelerators and biggest particle detectors. After a quick introduction of the theoretical aspects of subatomic physics, I will highlight two experiments: the ATLAS detector, one of the experiments of the Large Hadron Collider at CERN near Geneva in Switzerland, and DUNE, the Deep Underground Neutrino Experiment, future international endeavour hosted by Fermilab, US premier particle physics laboratory near Chicago, Illinois. Experimental particle physics is very pluridisciplinary: it's a collection of professions, from physicist of course, but also programmer, statistician, data scientist up to engineer for some parts. This translates into a lot of opportunities it brings for students from various backgrounds and at different levels.
 
-__For who?__  
+**For who?**  
 For undergraduates but can be adapted for a public audience.
 
-__Duration__  
+**Duration**  
 From 40 - 45 minutes.
 
 <br>

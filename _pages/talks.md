@@ -8,7 +8,6 @@ nav_order: 7
 display_categories: [Conference, Festivals, Panels]
 ---
 
-
 <!-- pages/projects.md -->
 <div class="outreach">
 {%- if site.enable_project_categories and page.display_categories %}
@@ -37,9 +36,11 @@ display_categories: [Conference, Festivals, Panels]
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.outreach | sort: "importance" -%}
+
+{%- assign sorted_projects = site.outreach | sort: "importance" -%}
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
