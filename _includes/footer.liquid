@@ -13,8 +13,13 @@
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
+    <div class="container mt-0 d-flex align-items-center justify-content-center">
       {{ footer_contents }}
+      {% if site.search_enabled %}
+        <button id="search-toggle" title="Search" onclick="openSearchModal()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      {% endif %}
     </div>
   </footer>
 {% else %}
@@ -23,8 +28,13 @@
       {% include newsletter.liquid %}
     {% endif %}
 
-    <div class="container">
+    <div class="container d-flex align-items-center justify-content-center">
       {{ footer_contents }}
+      {% if site.search_enabled %}
+        <button id="search-toggle" title="Search" onclick="openSearchModal()">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      {% endif %}
     </div>
   </footer>
 {% endif %}

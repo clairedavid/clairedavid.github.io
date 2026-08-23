@@ -124,7 +124,8 @@ ul.task-list input[type="checkbox"] {
 
 // Projects
 
-.projects {
+.projects,
+.outreach {
   a {
     text-decoration: none;
 
@@ -175,7 +176,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       img {
