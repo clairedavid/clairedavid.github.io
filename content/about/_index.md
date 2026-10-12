@@ -3,11 +3,11 @@ layout: "simple"
 title: "About"
 ---
 
-I enjoy fiddling with particle detectors, playing with data, and sharing the beauty of physics, algorithms, and my latest adventures in nature.
+I am a scientist who enjoys fiddling with particle detectors, playing with data, and sharing the beauty of physics, algorithms, and my latest adventures in nature.
 
-I started as an engineer, then got intrigued by data analysis, so switched to fundamental science and realized a dream: working on one of the largest detectors at CERN.
+Initially trained as an engineer, I got intrigued by data analysis, so switched to fundamental science and realized a dream: working on one of the largest detectors at CERN.
 
-In 2023 I dared say no to the academic grinder to pursue two interests at once: learning the math behind machine learning and teaching in Africa. I eventually resigned my tenure-track position in Canada to relocate to Cape Town and help launch a new master's in AI for science.
+In 2023, while in my third year as assistant professor, I made a bold move. I asked for a leave of absence to pursue two interests at once: learning the math behind machine learning and teaching in Africa. I eventually resigned my tenure-track position in Canada to relocate to Cape Town and help launch a new master’s in AI for science.
 
 There I found a new passion: mentoring. After colliding particles, I can't resist colliding talented students with scholars.
 
