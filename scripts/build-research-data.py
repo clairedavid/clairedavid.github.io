@@ -39,11 +39,17 @@ Each project's _content.txt holds, in this order:
                          "Links" heading; an image line's file may have a
                          "<stem>-dark" sibling of any extension in
                          _converted/, shown instead in dark mode)
+                         Talks only: Event: (one or several lines, shown between
+                         Years and Status), Duration: and Languages: (after
+                         Format); Audience/Level: reads "Target audience"
+                         there.
     == PAGE HEADING ==   a single line, becomes the page's title and h1
     == TEXT ==           markdown: paragraphs, *emphasis*, a quote as two
                          `> ` lines (text, then attribution), and optionally
                          one or more [[FIGURE-ROW]]...[[/FIGURE-ROW]] blocks
-                         (see parse_figure_row_block). A single-image row
+                         (see parse_figure_row_block), and [[VIDEO]] ID: /
+                         Title: / Start: [[/VIDEO]] blocks (a YouTube
+                         player, see parse_video). A single-image row
                          fills the column's full width; any image whose
                          corners are all light and opaque (see
                          image_needs_frame) is framed in the same white
@@ -94,8 +100,9 @@ OUT = ROOT / "data" / "research.json"
 ASSETS_OUT = ROOT / "assets" / "research"
 CONTENT_OUT = ROOT / "content" / "research"
 
-# The same pipeline builds the Teaching tab (--area teaching): same card format
-# and templates, its own sources, data file, assets and pages. main() points
+# The same pipeline builds the Teaching tab (--area teaching) and the Talks tab
+# (--area talks): same card format and templates, their own sources, data file,
+# assets and pages. main() points
 # the module-level paths above at the chosen area before anything runs.
 AREA = "research"
 AREAS = {
@@ -105,6 +112,13 @@ AREAS = {
         "out": ROOT / "data" / "teaching.json",
         "assets_out": ROOT / "assets" / "teaching",
         "content_out": ROOT / "content" / "teaching",
+    },
+    "talks": {
+        "src": ROOT / "content-source" / "talks",
+        "assets_src": pathlib.Path.home() / "Desktop/website_meta/talks",
+        "out": ROOT / "data" / "talks.json",
+        "assets_out": ROOT / "assets" / "talks",
+        "content_out": ROOT / "content" / "talks",
     },
 }
 
@@ -122,6 +136,15 @@ TEACHING_THEME_DEFS = [
     {"id": "ml-stats", "title": "Statistics & ML", "folder": "ml-stats", "slugs": None},
     {"id": "physics", "title": "Physics", "folder": "physics", "slugs": None},
 ]
+
+# Talks themes, in site order, same discovery rules as Teaching: slugs come
+# from the theme's subfolders, the heading from its _intro.txt "Theme:" line.
+TALKS_THEME_DEFS = [
+    {"id": "particle-physics", "title": "Particle Physics", "folder": "particle-physics", "slugs": None},
+    {"id": "mentoring", "title": "Mentoring", "folder": "mentoring", "slugs": None},
+    {"id": "science-culture", "title": "Science & Culture", "folder": "science-culture", "slugs": None},
+]
+AREA_THEME_DEFS = {"teaching": TEACHING_THEME_DEFS, "talks": TALKS_THEME_DEFS}
 
 # Phase-1 review artifacts that live alongside the real finals in
 # _converted/ but are never site assets.
@@ -173,7 +196,7 @@ def parse_kv(body):
 
 # Every field label a LEFT PANEL can hold; a value or block ends at the next one.
 KNOWN_FIELD_RE = re.compile(
-    r"^(Role|Years|Status|Logo|Team|Links|Facts|Audience/Level|Prerequisites|Format):\s*")
+    r"^(Role|Years|Status|Logo|Team|Links|Facts|Audience/Level|Prerequisites|Format|Event|Duration|Languages):\s*")
 
 
 def label_block(body, label):
@@ -515,9 +538,14 @@ def parse_panel(body, card, slug, converted_dir):
     links_label, links = parse_links_lines(body, slug, converted_dir)
     # Audience/Level, Prerequisites, Format: label line plus value lines, shown
     # under Years/Status. Only present in the data when a card has any.
-    fields = [{"label": lab, "values": v}
-              for lab in ("Audience/Level", "Prerequisites", "Format")
+    # Duration and Languages follow Format (Talks only in practice). On the
+    # Talks area "Audience/Level" is shown as "Target audience"; the source
+    # label stays the same one Teaching uses.
+    shown = {"Audience/Level": "Target audience"} if AREA == "talks" else {}
+    fields = [{"label": shown.get(lab, lab), "values": v}
+              for lab in ("Audience/Level", "Prerequisites", "Format", "Duration", "Languages")
               for v in [label_block(body, lab)] if v]
+    event = "\n".join(label_block(body, "Event"))
     out = {
         "role": kv.get("Role") or "\n".join(label_block(body, "Role")),
         # Years/Status fall back to the CARD's own, when the panel does not
@@ -535,6 +563,8 @@ def parse_panel(body, card, slug, converted_dir):
     }
     if fields:
         out["fields"] = fields
+    if event:
+        out["event"] = event   # Talks only: rendered between Years and Status
     return out
 
 
@@ -547,7 +577,7 @@ def parse_figures(body):
     return [stem(l) for l in lines]
 
 
-BLOCK_RE = re.compile(r"\[\[(FIGURE-ROW|TESTIMONIAL)\]\](.*?)\[\[/\1\]\]", re.S)
+BLOCK_RE = re.compile(r"\[\[(FIGURE-ROW|TESTIMONIAL|VIDEO)\]\](.*?)\[\[/\1\]\]", re.S)
 
 
 def parse_figure_row_block(body):
@@ -602,6 +632,23 @@ def apply_hard_wraps(md):
     return "".join(out)
 
 
+def parse_video(body):
+    """The body of a [[VIDEO]] block: ID: (the YouTube id), Title: (the
+    player's accessible title) and an optional Start: (seconds). Rendered
+    at template time with Hugo's built-in youtube shortcode, privacy-
+    enhanced and lazy loaded."""
+    fields = {"id": "", "title": "", "start": ""}
+    for line in body.strip("\n").split("\n"):
+        s = line.strip()
+        for key in fields:
+            if s.lower().startswith(key + ":"):
+                fields[key] = s.split(":", 1)[1].strip()
+    if not fields["id"]:
+        print("  ERROR: [[VIDEO]] block without an ID:", file=sys.stderr)
+        sys.exit(1)
+    return fields
+
+
 def parse_testimonial(body):
     """The body of a [[TESTIMONIAL]] block: Quote: and Attribution: (each may
     continue on the following lines). Both are kept verbatim; the attribution
@@ -626,8 +673,8 @@ def parse_testimonial(body):
 
 def split_text_blocks(raw_text):
     """TEXT as a list of {"kind": "markdown", "content"}, {"kind":
-    "figure-row", "images"} and {"kind": "testimonial", "quote",
-    "attribution"} blocks in source order, instead of one string, so the
+    "figure-row", "images"}, {"kind": "video", "id", "title", "start"} and
+    {"kind": "testimonial", "quote", "attribution"} blocks in source order, instead of one string, so the
     template can render a figure row as its own flex layout and a testimonial
     as its own block instead of passing them through markdown as literal text.
     split_quote_attribution runs per markdown block (its regex only ever
@@ -647,6 +694,8 @@ def split_text_blocks(raw_text):
         add_markdown(raw_text[pos:m.start()])
         if m.group(1) == "FIGURE-ROW":
             blocks.append({"kind": "figure-row", "images": parse_figure_row_block(m.group(2))})
+        elif m.group(1) == "VIDEO":
+            blocks.append({"kind": "video", **parse_video(m.group(2))})
         else:
             blocks.append({"kind": "testimonial", **parse_testimonial(m.group(2))})
         pos = m.end()
@@ -915,7 +964,7 @@ def write_content_pages(projects):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--area", choices=("research", "teaching"), default="research",
+    ap.add_argument("--area", choices=("research", "teaching", "talks"), default="research",
                     help="which tab to build; default research")
     ap.add_argument("--src", type=pathlib.Path, default=None,
                     help="text sources (_intro.txt, _content.txt); default content-source/<area>")
@@ -929,7 +978,7 @@ def main():
     if AREA != "research":
         cfg = AREAS[AREA]
         OUT, ASSETS_OUT, CONTENT_OUT = cfg["out"], cfg["assets_out"], cfg["content_out"]
-        theme_defs = TEACHING_THEME_DEFS
+        theme_defs = AREA_THEME_DEFS[AREA]
         args.src = args.src or cfg["src"]
         args.assets_src = args.assets_src or cfg["assets_src"]
     args.src = args.src or DEFAULT_SRC

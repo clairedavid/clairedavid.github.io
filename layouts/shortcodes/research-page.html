@@ -118,6 +118,14 @@
           <div class="res-panel-value">{{ partial "research/lines.html" . }}</div>
         </div>
         {{- end }}
+        {{- /* Event (Talks only: the data key exists only there): where the talk
+             was given, between Years and Status. */ -}}
+        {{- with $project.panel.event }}
+        <div class="res-panel-block">
+          <h3>Event</h3>
+          <div class="res-panel-value">{{ partial "research/lines.html" . }}</div>
+        </div>
+        {{- end }}
         {{- with $project.panel.status }}
         <div class="res-panel-block">
           <h3>Status</h3>
@@ -239,6 +247,17 @@
             {{- end }}
             <footer class="res-testimonial-by">{{ .attribution | markdownify }}</footer>
           </blockquote>
+          {{- else if eq .kind "video" }}
+          {{- /* [[VIDEO]] block (Talks): Hugo's built-in youtube shortcode,
+               privacy-enhanced (youtube-nocookie, set in hugo.toml) and lazy
+               loaded. A shortcode cannot be called from a template directly,
+               so it is rendered through the page's own RenderString. */}}
+          <div class="res-video">
+            {{- $page := $.Page -}}
+            {{- $args := printf `id=%q title=%q loading="lazy"` .id .title -}}
+            {{- with .start }}{{ $args = printf `%s start=%q` $args . }}{{ end -}}
+            {{ $page.RenderString (printf "{{< youtube %s >}}" $args) }}
+          </div>
           {{- else if eq .kind "figure-row" }}
           {{- partial "research/figure-row.html" (dict "area" $area "slug" $slug "images" .images) }}
           {{- else }}

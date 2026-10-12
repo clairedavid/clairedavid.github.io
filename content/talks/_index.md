@@ -1,6 +1,9 @@
 ---
 layout: "simple"
+type: "research"
+area: "talks"
 title: "Talks"
+subtitle: "Sharing the joys of science."
 ---
 
-*Talks: coming soon.*
+{{< research-overview area="talks" >}}

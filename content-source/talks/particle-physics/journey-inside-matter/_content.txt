@@ -1,0 +1,28 @@
+== CARD ==
+Title: A journey inside matter
+Subtitle: Undergraduate students
+Order: 1
+Card image: journey-inside-matter-card.jpg
+
+== BANNER ==
+Image: journey-inside-matter-banner.jpg
+Caption: Sneak peek of the slides.
+
+== LEFT PANEL ==
+
+Audience/Level:
+Undergraduates, adaptable to a general audience
+
+Duration:
+From 40 - 45 minutes
+
+== PAGE HEADING ==
+A journey inside matter
+
+== TEXT ==
+
+Experimental particle physics with the ATLAS & DUNE experiments.
+
+Experimental particle physics is a field of superlatives: highest energies (in terms of density), most powerful accelerators and biggest particle detectors. After a quick introduction of the theoretical aspects of subatomic physics, I will highlight two experiments: the ATLAS detector, one of the experiments of the Large Hadron Collider at CERN near Geneva in Switzerland, and DUNE, the Deep Underground Neutrino Experiment, future international endeavour hosted by Fermilab, US premier particle physics laboratory near Chicago, Illinois. Experimental particle physics is very multidisciplinary: it's a collection of professions, from physicist of course, but also programmer, statistician, data scientist up to engineer for some parts. This translates into a lot of opportunities it brings for students from various backgrounds and at different levels.
+
+== TECHNICAL ==

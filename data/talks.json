@@ -1,0 +1,716 @@
+{
+  "themes": [
+    {
+      "id": "particle-physics",
+      "title": "Particle Physics",
+      "intro": [],
+      "projects": [
+        {
+          "slug": "journey-inside-matter",
+          "card": {
+            "title": "A journey inside matter",
+            "subtitle": "Undergraduate students",
+            "years": "",
+            "status": "",
+            "image": "journey-inside-matter-card",
+            "source_stem": "journey-inside-matter-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "single",
+            "single": "journey-inside-matter-banner",
+            "original_stem": "",
+            "credit": "",
+            "caption": "Sneak peek of the slides."
+          },
+          "panel": {
+            "role": "",
+            "years": "",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "Undergraduates, adaptable to a general audience"
+                ]
+              },
+              {
+                "label": "Duration",
+                "values": [
+                  "From 40 - 45 minutes"
+                ]
+              }
+            ]
+          },
+          "page_heading": "A journey inside matter",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Experimental particle physics with the ATLAS & DUNE experiments.\n\nExperimental particle physics is a field of superlatives: highest energies (in terms of density), most powerful accelerators and biggest particle detectors. After a quick introduction of the theoretical aspects of subatomic physics, I will highlight two experiments: the ATLAS detector, one of the experiments of the Large Hadron Collider at CERN near Geneva in Switzerland, and DUNE, the Deep Underground Neutrino Experiment, future international endeavour hosted by Fermilab, US premier particle physics laboratory near Chicago, Illinois. Experimental particle physics is very multidisciplinary: it's a collection of professions, from physicist of course, but also programmer, statistician, data scientist up to engineer for some parts. This translates into a lot of opportunities it brings for students from various backgrounds and at different levels."
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "neutrino-day",
+          "card": {
+            "title": "SURF's Neutrino Day Festival",
+            "subtitle": "",
+            "years": "2022",
+            "status": "",
+            "image": "neutrino-day-card",
+            "source_stem": "neutrino-day-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2022",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "event": "Neutrino Day, Sanford Underground Research Facility, Lead, South Dakota"
+          },
+          "page_heading": "SURF's Neutrino Day Festival",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Sanford Underground Research Facility's Free Science Festival in Lead, South Dakota.\n\nThe [Sanford Underground Research Facility (SURF)](https://sanfordlab.org) is an underground laboratory in Lead, South Dakota, USA, at the former site of the Homestake Gold Mine. It hosts world-leading research experiments in physics, biology, geology and engineering."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "neutrino-day-surf",
+                  "caption": "Sanford Underground Research Facility in the former Homestake Gold Mine",
+                  "credit": "Credit: SURF",
+                  "width": 1000,
+                  "height": 562,
+                  "ratio": 1.779359,
+                  "needs_frame": false
+                },
+                {
+                  "image": "neutrino-day-surf-visitor",
+                  "caption": "Sanford Lab Homestake Visitor Center",
+                  "credit": "Credit: SURF",
+                  "width": 1000,
+                  "height": 562,
+                  "ratio": 1.779359,
+                  "needs_frame": false
+                }
+              ]
+            },
+            {
+              "kind": "markdown",
+              "content": "> **Neutrino Day is SURF's free, city-wide science festival.**\n\nIn 2022, I was invited to give a public talk on the DUNE Experiment, whose biggest detector components will be installed at SURF, 1.5 km below the surface.\n\nFind more about [Neutrino Day](https://neutrinoday.com/about-neutrino-day). Some pictures and a video on the [Best-Of Neutrino Day 2022](https://sanfordlab.org/feature/best-neutrino-day-2022)."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "neutrino-day-theater",
+                  "caption": "Opera House",
+                  "credit": "Credit: SURF",
+                  "width": 1000,
+                  "height": 562,
+                  "ratio": 1.779359,
+                  "needs_frame": false
+                },
+                {
+                  "image": "neutrino-day-kids",
+                  "caption": "Kids attending Neutrino Day 2022",
+                  "credit": "Credit: SURF",
+                  "width": 1000,
+                  "height": 562,
+                  "ratio": 1.779359,
+                  "needs_frame": false
+                }
+              ]
+            },
+            {
+              "kind": "markdown",
+              "content": "Sneak peek of Neutrino Day 2022."
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "dune-telescope",
+          "card": {
+            "title": "The DUNE Experiment",
+            "subtitle": "General audience",
+            "years": "2021",
+            "status": "",
+            "image": "dune-telescope-card",
+            "source_stem": "dune-telescope-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2021",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "General audience"
+                ]
+              },
+              {
+                "label": "Duration",
+                "values": [
+                  "From 40 - 45 minutes"
+                ]
+              }
+            ],
+            "event": "Speaker’s Night, Royal Astronomical Society of Canada Toronto"
+          },
+          "page_heading": "The DUNE Experiment",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Embark on the neutrino telescope to pierce the secrets of matter!\n\nA presentation of the international endeavour of the Deep Underground Neutrino Experiment. What is the neutrino? Why is it so interesting to study? Special videos will showcase the future facility, from Fermilab’s accelerator complex near Chicago fabricating the future most intense neutrino beam of the world, to the Sanford Underground Research Facility where the largest Liquid Argon Time Projection Chambers - a neutrino detection technology - will be installed at the former Homestake Gold Mine in Lead, South Dakota. The talk ends with DUNE’s potential to catch supernovae, making it literally an underground telescope… 1500 m below the Earth’s surface!\n\n**Recording**\n\nMay 19, 2021: invited to the online Speaker’s Night of the Royal Astronomical Society of Canada Toronto, Canada."
+            },
+            {
+              "kind": "video",
+              "id": "TF9mXxf3c30",
+              "title": "YouTube video player",
+              "start": "311"
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "higgs-discovery",
+          "card": {
+            "title": "The triumphant discovery of the Higgs boson",
+            "subtitle": "General audience",
+            "years": "2021",
+            "status": "",
+            "image": "higgs-discovery-card",
+            "source_stem": "higgs-discovery-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2021",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Link",
+            "links": [
+              [
+                {
+                  "kind": "inline",
+                  "segments": [
+                    {
+                      "text": "YouTube video ↗",
+                      "url": "https://youtu.be/Er1-N2NnPjc?t=156"
+                    }
+                  ],
+                  "centered": false
+                }
+              ]
+            ],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "General audience"
+                ]
+              },
+              {
+                "label": "Duration",
+                "values": [
+                  "Short: 25 minutes",
+                  "Long: 50 minutes"
+                ]
+              },
+              {
+                "label": "Languages",
+                "values": [
+                  "English or French"
+                ]
+              }
+            ],
+            "event": "Allan I Carswell Observatory, York University, Canada"
+          },
+          "page_heading": "The triumphant discovery of the Higgs boson",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "A half-a-century-long journey."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "atlas-collision",
+                  "caption": "ATLAS Collision",
+                  "credit": "",
+                  "width": 480,
+                  "height": 270,
+                  "ratio": 1.777778,
+                  "needs_frame": false
+                },
+                {
+                  "image": "higgs-bump-simplified-plot",
+                  "caption": "A simplified graph to explain the real discovery plots",
+                  "credit": "",
+                  "width": 960,
+                  "height": 540,
+                  "ratio": 1.777778,
+                  "needs_frame": true
+                }
+              ]
+            },
+            {
+              "kind": "markdown",
+              "content": "Sneak peek of the presentation that shows videos and some self-made simplified plots."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "higgs-gamma-gamma",
+                  "caption": "Animated plot H → γγ",
+                  "credit": "",
+                  "width_pct": 50.0,
+                  "width": 796,
+                  "height": 772,
+                  "ratio": 1.031088,
+                  "needs_frame": true
+                }
+              ]
+            },
+            {
+              "kind": "markdown",
+              "content": "This public talk retraces the fascinating journey of the long-sought Higgs boson, a missing piece in the theory of elementary particles. Why did physicists hunt for it for more than a half century? And how is it changing our world?\n\nAt the end of the talk, you will be able to understand the real plots shown during the official announcement of the discovery on July 4<sup>th</sup>, 2012!\n\n**Recording**\n\nFebruary 24, 2021: invited to live broadcast at Allan I Carswell Observatory, York University, Canada."
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "needles-and-sandwich",
+          "card": {
+            "title": "Sorting needles & cooling a sandwich",
+            "subtitle": "Undergraduate students",
+            "years": "2020",
+            "status": "",
+            "image": "needles-and-sandwich-card",
+            "source_stem": "needles-and-sandwich-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "single",
+            "single": "needles-and-sandwich-banner",
+            "original_stem": "",
+            "credit": "",
+            "caption": "Sneak peek of the slides."
+          },
+          "panel": {
+            "role": "",
+            "years": "2020",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Link",
+            "links": [
+              [
+                {
+                  "kind": "inline",
+                  "segments": [
+                    {
+                      "text": "YouTube video ↗",
+                      "url": "https://www.youtube.com/watch?v=cYu4E7PKMRE&t=132s"
+                    }
+                  ],
+                  "centered": false
+                }
+              ]
+            ],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "Undergraduate students, from second year"
+                ]
+              },
+              {
+                "label": "Duration",
+                "values": [
+                  "50 minutes"
+                ]
+              }
+            ],
+            "event": "McGill Physical Society Colloquium"
+          },
+          "page_heading": "Sorting needles & cooling a sandwich",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "What I did during my postdoc.\n\nData analysis and detector development with ATLAS at the Large Hadron Collider.\n\nThis colloquium relates the research I performed during my postdoctoral years, analyzing data to find a rare production mode of the Higgs boson and making measurements in the lab on a prototype for the next generation of particle detectors at the Large Hadron Collider.\n\n**Recording**\n\nSeptember 4, 2020: McGill Physical Society Colloquium | [abstract](https://www.physics.mcgill.ca/seminars/PSC_david.html)"
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "atlas-masterclasses",
+          "card": {
+            "title": "ATLAS Masterclasses",
+            "subtitle": "High school students",
+            "years": "2014",
+            "status": "",
+            "image": "atlas-masterclasses-card",
+            "source_stem": "atlas-masterclasses-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "single",
+            "single": "atlas-masterclasses-banner",
+            "original_stem": "",
+            "credit": "",
+            "caption": "Sneak peek of the slides."
+          },
+          "panel": {
+            "role": "",
+            "years": "2014",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "High school students"
+                ]
+              }
+            ],
+            "event": "ATLAS Masterclass 2014, University of Victoria"
+          },
+          "page_heading": "ATLAS Masterclasses",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Data analysis with ATLAS at the LHC.\n\nWhat do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon. More on the official website: [International Masterclasses](https://physicsmasterclasses.org/).\n\nThis talk was presented during the ATLAS Masterclass 2014 at the University of Victoria. It was organized by Vispa."
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        }
+      ]
+    },
+    {
+      "id": "mentoring",
+      "title": "Mentoring",
+      "intro": [],
+      "projects": [
+        {
+          "slug": "how-i-became-a-scientist",
+          "card": {
+            "title": "How I became a scientist",
+            "subtitle": "High school and university students",
+            "years": "",
+            "status": "",
+            "image": "how-i-became-a-scientist-card",
+            "source_stem": "how-i-became-a-scientist-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "High school and university students"
+                ]
+              },
+              {
+                "label": "Duration",
+                "values": [
+                  "Short: 20 minutes",
+                  "Long: 40 minutes"
+                ]
+              }
+            ]
+          },
+          "page_heading": "How I became a scientist",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "The backstory not written in my CV.\n\nThere is a trap in academia: comparing ourselves with others. I am sharing in this talk my doubts, joys, pains, moments of truth and moments of despair, while getting stamped with degrees and so-called ‘achievements’ that are not necessarily contributing to a good mental well-being. The most important is this: explore. It is okay to have an atypical path. At times it is what is searched for! And it makes you unique. Main takeaway: follow your interests. It will get you places. The places you definitely want to be in."
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "sst-congo",
+          "card": {
+            "title": "Science & Technology Week",
+            "subtitle": "",
+            "years": "2023",
+            "status": "",
+            "image": "sst-congo-card",
+            "source_stem": "sst-congo-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2023",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "event": "Semaine de la Science et des Technologies (SST), 10th edition"
+          },
+          "page_heading": "Science & Technology Week",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Promoting a scientific culture among youths in Congo DRC."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "sst-gombe-village",
+                  "caption": "Visiting schools attend the Village of Sciences at the Institute de la Gombe in Kinshasa.",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 723,
+                  "ratio": 2.213001,
+                  "needs_frame": false
+                }
+              ]
+            },
+            {
+              "kind": "markdown",
+              "content": "The [Semaine de la Science et des Technologies (SST)](https://www.semainedelasciencerdc.org) is a festival organized in the Democratic Republic of Congo. This event has three objectives:\n\n1. To develop a scientific and technological culture in Africa  \n1. To promote African knowledge and know-how in these fields  \n1. Above all: to encourage vocations\n\n> **The festival's motto: Science is fun, join us! :-)**\n\nThe figure behind this event: Professor Raïssa Malu. Physicist and author born in Kinshasa, she is the founder and director of the non-profit association Investing In People, one of the SST organizers.\n\nI met Raïssa Malu at the African School of Physics of December 2022 (ASP2022) and she invited me for the special 10<sup>th</sup> edition in April 2023. I had the honour to be a keynote speaker and showcase the ATLAS and DUNE experiments at universities in Kinshasa and Mbanza-Ngungu. The SST scientific director Dora Muanda trained volunteering local students to prepare and animate booths at the Village of Sciences. A total of 500 nearby schools visited the Institut de la Gombe over two days. I had the privilege to showcase CERN's Large Hadron Collider and the ATLAS Experiment to more than 10,000 students!\n\nThe festival is much more than the Village of Sciences: there were conferences, panels, opening and closing ceremonies: have a look at the [summary of SST 10<sup>th</sup> edition 2023](https://www.semainedelasciencerdc.org/programme-edition-2023/)."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "sst-booth-cern-scatter",
+                  "caption": "One of the 500 schools visiting the Village of Sciences and attentively listening to my speech on subatomic physics at the CERN and ATLAS booth (with a DIY cardboard scattering demonstrator on the right).",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 778,
+                  "ratio": 2.056555,
+                  "needs_frame": false
+                }
+              ]
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        }
+      ]
+    },
+    {
+      "id": "science-culture",
+      "title": "Science & Culture",
+      "intro": [],
+      "projects": [
+        {
+          "slug": "particle-fever",
+          "card": {
+            "title": "Particle Fever",
+            "subtitle": "",
+            "years": "2013",
+            "status": "",
+            "image": "particle-fever-card",
+            "source_stem": "particle-fever-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2013",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "event": "Vancouver International Film Festival (VIFF)"
+          },
+          "page_heading": "Particle Fever",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Panel discussion at the Vancouver International Film Festival (VIFF)\n\nIn 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.\n\n> **Particle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest.**\n\n[Official website](http://particlefever.com/)"
+            },
+            {
+              "kind": "video",
+              "id": "Rikc7foqvRI",
+              "title": "PARTICLE FEVER - Official Trailer (2014) HD",
+              "start": ""
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
+          "slug": "but-hbar",
+          "card": {
+            "title": "But hbar?",
+            "subtitle": "",
+            "years": "",
+            "status": "",
+            "image": "but-hbar-card",
+            "source_stem": "but-hbar-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "event": "Emily Carr University of Art + Design (ECUAD)"
+          },
+          "page_heading": "But hbar?",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Scientists and artists discuss on art and science.\n\n## Particle Interactions in Physics and Arts: Artistic Transformation\n\nVancouver's Emily Carr University of Art + Design (ECUAD) invited scientists as part of a project to show the parallels between art and science. It all started when artists from ECUAD visited the TRIUMF particle physics laboratory to find inspiration for their work. Scientists were invited afterwards to comment on their creations. A fascinating discussion ensued, revealing surprising connections between two worlds and a common quest shared by scientists and artists: we both 'connect the unconnected.'\n\n[More on TRIUMF's blog](https://www.triumf.ca/headlines/current-events/transformations-and-translations)."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "but-hbar-artwork",
+                  "caption": "Waan Mahawanitwong | A Spiral Galaxy | Flour, Sugar, Lint, Photography.",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 1064,
+                  "ratio": 1.503759,
+                  "needs_frame": false
+                }
+              ]
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        }
+      ]
+    }
+  ]
+}

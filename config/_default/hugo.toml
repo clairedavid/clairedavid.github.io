@@ -67,3 +67,7 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+# Embedded YouTube players (Talks tab) use youtube-nocookie.com.
+[privacy.youtube]
+  privacyEnhanced = true

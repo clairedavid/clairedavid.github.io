@@ -1,0 +1,25 @@
+== CARD ==
+Title: How I became a scientist
+Subtitle: High school and university students
+Order: 1
+Card image: how-i-became-a-scientist-card.jpg
+
+== LEFT PANEL ==
+
+Audience/Level:
+High school and university students
+
+Duration:
+Short: 20 minutes
+Long: 40 minutes
+
+== PAGE HEADING ==
+How I became a scientist
+
+== TEXT ==
+
+The backstory not written in my CV.
+
+There is a trap in academia: comparing ourselves with others. I am sharing in this talk my doubts, joys, pains, moments of truth and moments of despair, while getting stamped with degrees and so-called ‘achievements’ that are not necessarily contributing to a good mental well-being. The most important is this: explore. It is okay to have an atypical path. At times it is what is searched for! And it makes you unique. Main takeaway: follow your interests. It will get you places. The places you definitely want to be in.
+
+== TECHNICAL ==
