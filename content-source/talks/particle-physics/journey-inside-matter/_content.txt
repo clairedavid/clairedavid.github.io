@@ -2,6 +2,7 @@
 Title: A journey inside matter
 Subtitle: Undergraduate students
 Order: 1
+Years: 2023–2025
 Card image: journey-inside-matter-card.jpg
 
 == BANNER ==
@@ -10,8 +11,20 @@ Caption: Sneak peek of the slides.
 
 == LEFT PANEL ==
 
+Years:
+2023–2025
+
+Event:
+AIMS Cameroon, Limbé
+AIMS Rwanda, Kigali
+University of Ghana, Accra
+International Chair in Mathematical Physics & Applications, Cotonou
+
 Audience/Level:
 Undergraduates, adaptable to a general audience
+
+Format:
+On-site
 
 Duration:
 From 40 - 45 minutes

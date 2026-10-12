@@ -6,6 +6,9 @@ Card image: particle-fever-card.jpg
 
 == LEFT PANEL ==
 
+Format:
+On-site
+
 Years:
 2013
 

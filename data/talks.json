@@ -10,7 +10,7 @@
           "card": {
             "title": "A journey inside matter",
             "subtitle": "Undergraduate students",
-            "years": "",
+            "years": "2023–2025",
             "status": "",
             "image": "journey-inside-matter-card",
             "source_stem": "journey-inside-matter-card",
@@ -28,7 +28,7 @@
           },
           "panel": {
             "role": "",
-            "years": "",
+            "years": "2023–2025",
             "status": "",
             "logo": "",
             "team": [],
@@ -43,12 +43,19 @@
                 ]
               },
               {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
+              },
+              {
                 "label": "Duration",
                 "values": [
                   "From 40 - 45 minutes"
                 ]
               }
-            ]
+            ],
+            "event": "AIMS Cameroon, Limbé\nAIMS Rwanda, Kigali\nUniversity of Ghana, Accra\nInternational Chair in Mathematical Physics & Applications, Cotonou"
           },
           "page_heading": "A journey inside matter",
           "text": [
@@ -90,6 +97,14 @@
             "facts": [],
             "links_label": "Links",
             "links": [],
+            "fields": [
+              {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
+              }
+            ],
             "event": "Neutrino Day, Sanford Underground Research Facility, Lead, South Dakota"
           },
           "page_heading": "SURF's Neutrino Day Festival",
@@ -194,6 +209,12 @@
                 ]
               },
               {
+                "label": "Format",
+                "values": [
+                  "Online"
+                ]
+              },
+              {
                 "label": "Duration",
                 "values": [
                   "From 40 - 45 minutes"
@@ -266,6 +287,12 @@
                 "label": "Target audience",
                 "values": [
                   "General audience"
+                ]
+              },
+              {
+                "label": "Format",
+                "values": [
+                  "Online"
                 ]
               },
               {
@@ -392,6 +419,12 @@
                 ]
               },
               {
+                "label": "Format",
+                "values": [
+                  "Online"
+                ]
+              },
+              {
                 "label": "Duration",
                 "values": [
                   "50 minutes"
@@ -447,6 +480,12 @@
                 "values": [
                   "High school students"
                 ]
+              },
+              {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
               }
             ],
             "event": "ATLAS Masterclass 2014, University of Victoria"
@@ -474,7 +513,7 @@
           "card": {
             "title": "How I became a scientist",
             "subtitle": "High school and university students",
-            "years": "",
+            "years": "2023–2026",
             "status": "",
             "image": "how-i-became-a-scientist-card",
             "source_stem": "how-i-became-a-scientist-card",
@@ -491,7 +530,7 @@
           },
           "panel": {
             "role": "",
-            "years": "",
+            "years": "2023–2026",
             "status": "",
             "logo": "",
             "team": [],
@@ -506,13 +545,20 @@
                 ]
               },
               {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
+              },
+              {
                 "label": "Duration",
                 "values": [
                   "Short: 20 minutes",
                   "Long: 40 minutes"
                 ]
               }
-            ]
+            ],
+            "event": "Integrative Think Tank (ITT), AIMS South Africa\nAIMS Cameroon, Limbé\nAIMS South Africa, Muizenberg"
           },
           "page_heading": "How I became a scientist",
           "text": [
@@ -554,6 +600,14 @@
             "facts": [],
             "links_label": "Links",
             "links": [],
+            "fields": [
+              {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
+              }
+            ],
             "event": "Semaine de la Science et des Technologies (SST), 10th edition"
           },
           "page_heading": "Science & Technology Week",
@@ -635,6 +689,14 @@
             "facts": [],
             "links_label": "Links",
             "links": [],
+            "fields": [
+              {
+                "label": "Format",
+                "values": [
+                  "On-site"
+                ]
+              }
+            ],
             "event": "Vancouver International Film Festival (VIFF)"
           },
           "page_heading": "Particle Fever",

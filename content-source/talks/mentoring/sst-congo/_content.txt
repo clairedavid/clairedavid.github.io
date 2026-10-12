@@ -6,6 +6,9 @@ Card image: sst-congo-card.jpg
 
 == LEFT PANEL ==
 
+Format:
+On-site
+
 Years:
 2023
 

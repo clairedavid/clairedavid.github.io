@@ -2,12 +2,24 @@
 Title: How I became a scientist
 Subtitle: High school and university students
 Order: 1
+Years: 2023–2026
 Card image: how-i-became-a-scientist-card.jpg
 
 == LEFT PANEL ==
 
+Years:
+2023–2026
+
+Event:
+Integrative Think Tank (ITT), AIMS South Africa
+AIMS Cameroon, Limbé
+AIMS South Africa, Muizenberg
+
 Audience/Level:
 High school and university students
+
+Format:
+On-site
 
 Duration:
 Short: 20 minutes

@@ -6,6 +6,9 @@ Card image: neutrino-day-card.jpg
 
 == LEFT PANEL ==
 
+Format:
+On-site
+
 Years:
 2022
 
