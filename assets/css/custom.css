@@ -307,3 +307,10 @@ body {
 #main-content > article.max-w-full > section h2.about-section {
   margin-top: clamp(3.25rem, 2rem + 3vw, 4rem);
 }
+
+/* Dark page background: neutral near-black instead of slate-800. Blowfish paints the page
+   and its dark surfaces from --color-neutral-800, so redefining the token
+   once keeps them all in step. Value is #1c1c1d, the dark grey of the previous site. */
+html.dark {
+  --color-neutral-800: 28, 28, 29;
+}

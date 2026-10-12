@@ -66,7 +66,7 @@
   --paper: #1c1a17;
   --soft: #94a3b8;       /* neutral-400 */
   --boxstroke: #cbd5e1;  /* follows --ink */
-  --card: #1e293b;       /* neutral-800 */
+  --card: rgb(var(--color-neutral-800));
 }
 
 .imap * { box-sizing: border-box }
