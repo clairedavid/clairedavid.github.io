@@ -365,8 +365,21 @@
             "logo": "",
             "team": [],
             "facts": [],
-            "links_label": "Links",
-            "links": [],
+            "links_label": "Link",
+            "links": [
+              [
+                {
+                  "kind": "inline",
+                  "segments": [
+                    {
+                      "text": "YouTube video ↗",
+                      "url": "https://www.youtube.com/watch?v=cYu4E7PKMRE&t=132s"
+                    }
+                  ],
+                  "centered": false
+                }
+              ]
+            ],
             "fields": [
               {
                 "label": "Target audience",
@@ -393,17 +406,7 @@
           "text": [
             {
               "kind": "markdown",
-              "content": "Data analysis and detector development with ATLAS at the Large Hadron Collider.\n\nThis colloquium relates the research I performed during my postdoctoral years, analyzing data to find a rare production mode of the Higgs boson and making measurements in the lab on a prototype for the next generation of particle detectors at the Large Hadron Collider.\n\n**Recording**"
-            },
-            {
-              "kind": "video",
-              "id": "cYu4E7PKMRE",
-              "title": "Sorting needles & cooling a sandwich",
-              "start": "132"
-            },
-            {
-              "kind": "markdown",
-              "content": "[McGill Physical Society Colloquium, September 4, 2020 ↗](https://www.physics.mcgill.ca/seminars/PSC_david.html)"
+              "content": "Data analysis and detector development with ATLAS at the Large Hadron Collider.\n\nThis colloquium relates the research I performed during my postdoctoral years, analyzing data to find a rare production mode of the Higgs boson and making measurements in the lab on a prototype for the next generation of particle detectors at the Large Hadron Collider.\n\n[McGill Physical Society Colloquium, September 4, 2020 ↗](https://www.physics.mcgill.ca/seminars/PSC_david.html)"
             }
           ],
           "figures": [],

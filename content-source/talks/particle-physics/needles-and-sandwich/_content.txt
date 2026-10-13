@@ -25,6 +25,9 @@ On-site or online
 Duration:
 50 minutes
 
+Links:
+[YouTube video ↗](https://www.youtube.com/watch?v=cYu4E7PKMRE&t=132s)
+
 == PAGE HEADING ==
 Sorting needles & cooling a sandwich
 
@@ -33,14 +36,6 @@ Sorting needles & cooling a sandwich
 Data analysis and detector development with ATLAS at the Large Hadron Collider.
 
 This colloquium relates the research I performed during my postdoctoral years, analyzing data to find a rare production mode of the Higgs boson and making measurements in the lab on a prototype for the next generation of particle detectors at the Large Hadron Collider.
-
-**Recording**
-
-[[VIDEO]]
-ID: cYu4E7PKMRE
-Title: Sorting needles & cooling a sandwich
-Start: 132
-[[/VIDEO]]
 
 [McGill Physical Society Colloquium, September 4, 2020 ↗](https://www.physics.mcgill.ca/seminars/PSC_david.html)
 
