@@ -10,13 +10,14 @@ Years:
 2021
 
 Event:
-Allan I Carswell Observatory, York University, Canada
+Allan I Carswell Observatory
+York University, Canada
 
 Audience/Level:
 General audience
 
 Format:
-Online
+On-site or online
 
 Duration:
 25 or 50 minutes
@@ -37,8 +38,6 @@ Image: higgs-gamma-gamma.webp
 Caption: Animated plot H → γγ
 Credit: Credit: ATLAS Collaboration
 [[/FIGURE-ROW]]
-
-Sneak peek of the presentation that shows videos and some self-made simplified plots.
 
 This public talk retraces the fascinating journey of the long-sought Higgs boson, a missing piece in the theory of elementary particles. Why did physicists hunt for it for more than a half century? And how is it changing our world?
 
