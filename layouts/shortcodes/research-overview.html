@@ -14,6 +14,12 @@
      same template; the default is research. */ -}}
 {{- $area := .Get "area" | default "research" -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- /* Talks-only extras (pull quote): a separate sheet, so Research and
+     Teaching pages carry no new CSS. */}}
+{{- if eq $area "talks" }}
+{{- $tcss := resources.Get "css/talks.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $tcss.RelPermalink }}">
+{{- end }}
 
 <div class="res" id="res">
   {{- range (index (index hugo.Data $area) "themes") }}
@@ -91,7 +97,10 @@
         <div class="res-card-body">
           <div class="res-card-title">{{ $card.title }}</div>
           <div class="res-card-subtitle">{{ $card.subtitle }}</div>
+          {{- /* Talks cards carry a title and a subtitle only: no year. */}}
+          {{- if ne $area "talks" }}
           <div class="res-card-years">{{ $card.years }}</div>
+          {{- end }}
         </div>
       </a>
       {{- end }}

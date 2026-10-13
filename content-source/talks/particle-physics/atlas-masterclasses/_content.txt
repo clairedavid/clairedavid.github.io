@@ -1,8 +1,7 @@
 == CARD ==
 Title: ATLAS Masterclasses
-Subtitle: High school students
+Subtitle: Data analysis with ATLAS
 Order: 6
-Years: 2014
 Card image: atlas-masterclasses-card.jpg
 
 == BANNER ==
@@ -15,7 +14,8 @@ Years:
 2014
 
 Event:
-ATLAS Masterclass 2014, University of Victoria
+ATLAS Masterclass 2014
+University of Victoria
 
 Audience/Level:
 High school students
@@ -23,14 +23,16 @@ High school students
 Format:
 On-site
 
+Links:
+Label: Official website
+[International Masterclasses ↗](https://physicsmasterclasses.org/)
+
 == PAGE HEADING ==
 ATLAS Masterclasses
 
 == TEXT ==
 
-Data analysis with ATLAS at the LHC.
-
-What do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon. More on the official website: [International Masterclasses](https://physicsmasterclasses.org/).
+What do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon.
 
 This talk was presented during the ATLAS Masterclass 2014 at the University of Victoria. It was organized by Vispa.
 

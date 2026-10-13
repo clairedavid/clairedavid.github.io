@@ -1,0 +1,25 @@
+/* Talks tab only: extras on top of research.css, loaded by the research
+   shortcodes when area="talks", so Research and Teaching pages never carry
+   it. Colours come from research.css's own tokens, so light and dark follow
+   the site. */
+
+/* Pull quote: one short sentence, centred, a step larger than the body text.
+   Italic: the browser slants Inter (only the upright files are self-hosted),
+   which stays readable at this size; flip font-style to normal to go upright. */
+.res .res-pullquote {
+  margin: 2.2rem auto;
+  max-width: 30em;
+  text-align: center;
+  text-wrap: balance;
+  font-size: 1.4em;   /* of the text column's .97rem body size */
+  font-style: italic;
+  line-height: 1.35;
+  color: var(--res-ink);
+}
+
+/* Figure rows: the row makes its figures the same height by giving each a
+   flex-grow equal to its width/height ratio, which is exact only while the
+   cards add no padding. The framed plots have white backgrounds baked in, so
+   dropping the inner padding changes nothing you can see and keeps the
+   heights equal to the pixel. */
+.res .res-figrow-item .res-figure-card { padding: 0; overflow: hidden }

@@ -47,7 +47,9 @@ Each project's _content.txt holds, in this order:
     == TEXT ==           markdown: paragraphs, *emphasis*, a quote as two
                          `> ` lines (text, then attribution), and optionally
                          one or more [[FIGURE-ROW]]...[[/FIGURE-ROW]] blocks
-                         (see parse_figure_row_block), and [[VIDEO]] ID: /
+                         (see parse_figure_row_block), [[PULL-QUOTE]] one short
+                         sentence [[/PULL-QUOTE]] blocks (Talks: large, centred,
+                         italic) and [[VIDEO]] ID: /
                          Title: / Start: [[/VIDEO]] blocks (a YouTube
                          player, see parse_video). A single-image row
                          fills the column's full width; any image whose
@@ -577,7 +579,7 @@ def parse_figures(body):
     return [stem(l) for l in lines]
 
 
-BLOCK_RE = re.compile(r"\[\[(FIGURE-ROW|TESTIMONIAL|VIDEO)\]\](.*?)\[\[/\1\]\]", re.S)
+BLOCK_RE = re.compile(r"\[\[(FIGURE-ROW|TESTIMONIAL|VIDEO|PULL-QUOTE)\]\](.*?)\[\[/\1\]\]", re.S)
 
 
 def parse_figure_row_block(body):
@@ -673,7 +675,7 @@ def parse_testimonial(body):
 
 def split_text_blocks(raw_text):
     """TEXT as a list of {"kind": "markdown", "content"}, {"kind":
-    "figure-row", "images"}, {"kind": "video", "id", "title", "start"} and
+    "figure-row", "images"}, {"kind": "video", "id", "title", "start"}, {"kind": "pullquote", "text"} and
     {"kind": "testimonial", "quote", "attribution"} blocks in source order, instead of one string, so the
     template can render a figure row as its own flex layout and a testimonial
     as its own block instead of passing them through markdown as literal text.
@@ -696,6 +698,9 @@ def split_text_blocks(raw_text):
             blocks.append({"kind": "figure-row", "images": parse_figure_row_block(m.group(2))})
         elif m.group(1) == "VIDEO":
             blocks.append({"kind": "video", **parse_video(m.group(2))})
+        elif m.group(1) == "PULL-QUOTE":
+            # one short sentence, shown large and centred (see talks.css)
+            blocks.append({"kind": "pullquote", "text": " ".join(m.group(2).split())})
         else:
             blocks.append({"kind": "testimonial", **parse_testimonial(m.group(2))})
         pos = m.end()
@@ -949,6 +954,10 @@ def write_content_pages(projects):
         # Teaching pages reuse the research layout and shortcodes (type:
         # research) and say which area's data and URLs to use.
         area_fm = "" if AREA == "research" else f"type: \"research\"\narea: \"{AREA}\"\n"
+        # Talks: the card's Subtitle doubles as the line directly under the
+        # page title (layouts/research/simple.html prints .Params.subtitle).
+        if AREA == "talks" and p["card"]["subtitle"]:
+            area_fm += f"subtitle: {json.dumps(p['card']['subtitle'], ensure_ascii=False)}\n"
         area_arg = "" if AREA == "research" else f" area=\"{AREA}\""
         md = (
             "---\n"

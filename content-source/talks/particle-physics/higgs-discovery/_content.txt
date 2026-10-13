@@ -1,8 +1,7 @@
 == CARD ==
 Title: The triumphant discovery of the Higgs boson
-Subtitle: General audience
+Subtitle: A half-a-century-long journey
 Order: 4
-Years: 2021
 Card image: higgs-discovery-card.jpg
 
 == LEFT PANEL ==
@@ -20,37 +19,26 @@ Format:
 Online
 
 Duration:
-Short: 25 minutes
-Long: 50 minutes
+25 or 50 minutes
 
 Languages:
 English or French
-
-Links:
-[YouTube video ↗](https://youtu.be/Er1-N2NnPjc?t=156)
 
 == PAGE HEADING ==
 The triumphant discovery of the Higgs boson
 
 == TEXT ==
 
-A half-a-century-long journey.
-
 [[FIGURE-ROW]]
-Image: atlas-collision.webp
-Caption: ATLAS Collision
-
 Image: higgs-bump-simplified-plot.png
 Caption: A simplified graph to explain the real discovery plots
+
+Image: higgs-gamma-gamma.webp
+Caption: Animated plot H → γγ
+Credit: Credit: ATLAS Collaboration
 [[/FIGURE-ROW]]
 
 Sneak peek of the presentation that shows videos and some self-made simplified plots.
-
-[[FIGURE-ROW]]
-Image: higgs-gamma-gamma.webp
-Width: 50%
-Caption: Animated plot H → γγ
-[[/FIGURE-ROW]]
 
 This public talk retraces the fascinating journey of the long-sought Higgs boson, a missing piece in the theory of elementary particles. Why did physicists hunt for it for more than a half century? And how is it changing our world?
 
@@ -58,6 +46,10 @@ At the end of the talk, you will be able to understand the real plots shown duri
 
 **Recording**
 
-February 24, 2021: invited to live broadcast at Allan I Carswell Observatory, York University, Canada.
+[[VIDEO]]
+ID: Er1-N2NnPjc
+Title: The triumphant discovery of the Higgs boson
+Start: 156
+[[/VIDEO]]
 
 == TECHNICAL ==

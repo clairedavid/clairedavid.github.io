@@ -1,28 +1,32 @@
 == CARD ==
 Title: SURF's Neutrino Day Festival
+Subtitle: SURF's free science festival
 Order: 2
-Years: 2022
 Card image: neutrino-day-card.jpg
 
 == LEFT PANEL ==
-
-Format:
-On-site
 
 Years:
 2022
 
 Event:
-Neutrino Day, Sanford Underground Research Facility, Lead, South Dakota
+Neutrino Day Festival
+Sanford Underground Research Facility
+Lead, South Dakota
+
+Format:
+On-site
 
 == PAGE HEADING ==
 SURF's Neutrino Day Festival
 
 == TEXT ==
 
-Sanford Underground Research Facility's Free Science Festival in Lead, South Dakota.
+[[PULL-QUOTE]]
+Neutrino Day is SURF’s free, city-wide science festival.
+[[/PULL-QUOTE]]
 
-The [Sanford Underground Research Facility (SURF)](https://sanfordlab.org) is an underground laboratory in Lead, South Dakota, USA, at the former site of the Homestake Gold Mine. It hosts world-leading research experiments in physics, biology, geology and engineering.
+The [Sanford Underground Research Facility (SURF) ↗](https://sanfordlab.org) is an underground laboratory in Lead, South Dakota, USA, at the former site of the Homestake Gold Mine. It hosts world-leading research experiments in physics, biology, geology and engineering.
 
 [[FIGURE-ROW]]
 Image: neutrino-day-surf.jpg
@@ -34,11 +38,9 @@ Caption: Sanford Lab Homestake Visitor Center
 Credit: Credit: SURF
 [[/FIGURE-ROW]]
 
-> **Neutrino Day is SURF's free, city-wide science festival.**
-
 In 2022, I was invited to give a public talk on the DUNE Experiment, whose biggest detector components will be installed at SURF, 1.5 km below the surface.
 
-Find more about [Neutrino Day](https://neutrinoday.com/about-neutrino-day). Some pictures and a video on the [Best-Of Neutrino Day 2022](https://sanfordlab.org/feature/best-neutrino-day-2022).
+Find more about [Neutrino Day ↗](https://neutrinoday.com/about-neutrino-day). Some pictures and a video on the [Best-Of Neutrino Day 2022 ↗](https://sanfordlab.org/feature/best-neutrino-day-2022).
 
 [[FIGURE-ROW]]
 Image: neutrino-day-theater.jpg
@@ -49,7 +51,5 @@ Image: neutrino-day-kids.jpg
 Caption: Kids attending Neutrino Day 2022
 Credit: Credit: SURF
 [[/FIGURE-ROW]]
-
-Sneak peek of Neutrino Day 2022.
 
 == TECHNICAL ==

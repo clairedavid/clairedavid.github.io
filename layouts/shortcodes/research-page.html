@@ -25,6 +25,11 @@
 
 {{- $css := resources.Get "css/research.css" | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- /* Talks-only extras (pull quote), see research-overview.html. */}}
+{{- if eq $area "talks" }}
+{{- $tcss := resources.Get "css/talks.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $tcss.RelPermalink }}">
+{{- end }}
 
 {{- $project := "" -}}
 {{- range (index (index hugo.Data $area) "themes") -}}
@@ -247,6 +252,8 @@
             {{- end }}
             <footer class="res-testimonial-by">{{ .attribution | markdownify }}</footer>
           </blockquote>
+          {{- else if eq .kind "pullquote" }}
+          <p class="res-pullquote">{{ .text }}</p>
           {{- else if eq .kind "video" }}
           {{- /* [[VIDEO]] block (Talks): Hugo's built-in youtube shortcode,
                privacy-enhanced (youtube-nocookie, set in hugo.toml) and lazy

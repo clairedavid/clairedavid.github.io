@@ -1,13 +1,10 @@
 == CARD ==
 Title: Particle Fever
+Subtitle: Panel at the Vancouver International Film Festival
 Order: 1
-Years: 2013
 Card image: particle-fever-card.jpg
 
 == LEFT PANEL ==
-
-Format:
-On-site
 
 Years:
 2013
@@ -15,18 +12,21 @@ Years:
 Event:
 Vancouver International Film Festival (VIFF)
 
+Format:
+On-site
+
+Links:
+Label: Official website
+[particlefever.com ↗](https://particlefever.com/)
+
 == PAGE HEADING ==
 Particle Fever
 
 == TEXT ==
 
-Panel discussion at the Vancouver International Film Festival (VIFF)
-
 In 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.
 
-> **Particle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest.**
-
-[Official website](http://particlefever.com/)
+Particle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest.
 
 [[VIDEO]]
 ID: Rikc7foqvRI

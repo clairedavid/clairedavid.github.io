@@ -2,6 +2,7 @@
 layout: "simple"
 type: "research"
 area: "talks"
+subtitle: "Panel at the Vancouver International Film Festival"
 title: "Particle Fever"
 ---
 
