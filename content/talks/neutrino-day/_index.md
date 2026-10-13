@@ -2,7 +2,7 @@
 layout: "simple"
 type: "research"
 area: "talks"
-subtitle: "What is DUNE, the Deep Underground Neutrino Experiment"
+subtitle: "“DUNE: Piercing the secrets of neutrinos and the universe”"
 title: "SURF's Neutrino Day Festival"
 ---
 

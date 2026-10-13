@@ -1,6 +1,6 @@
 == CARD ==
 Title: SURF's Neutrino Day Festival
-Subtitle: What is DUNE, the Deep Underground Neutrino Experiment
+Subtitle: “DUNE: Piercing the secrets of neutrinos and the universe”
 Order: 2
 Card image: neutrino-day-card.jpg
 
