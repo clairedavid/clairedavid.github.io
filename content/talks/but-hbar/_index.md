@@ -2,7 +2,7 @@
 layout: "simple"
 type: "research"
 area: "talks"
-subtitle: "Scientists and artists on art and science"
+subtitle: "Particle Interactions in Physics and Arts: Artistic Transformation"
 title: "But hbar?"
 ---
 

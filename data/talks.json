@@ -16,7 +16,8 @@
             "source_stem": "journey-inside-matter-card",
             "original_stem": "",
             "credit": "",
-            "unlisted": false
+            "unlisted": false,
+            "card_subtitle": "With the ATLAS & DUNE experiments"
           },
           "banner": {
             "images": [],
@@ -55,7 +56,12 @@
                 ]
               }
             ],
-            "event": "AIMS Cameroon, Limbé\nAIMS Rwanda, Kigali\nUniversity of Ghana, Accra\nInternational Chair in Mathematical Physics & Applications, Cotonou"
+            "events": [
+              "AIMS Cameroon, Limbé",
+              "AIMS Rwanda, Kigali",
+              "University of Ghana, Accra",
+              "International Chair in Mathematical Physics & Applications, Cotonou"
+            ]
           },
           "page_heading": "A journey inside matter",
           "text": [
@@ -72,7 +78,7 @@
           "slug": "neutrino-day",
           "card": {
             "title": "SURF's Neutrino Day Festival",
-            "subtitle": "SURF's free science festival",
+            "subtitle": "What is DUNE, the Deep Underground Neutrino Experiment",
             "years": "",
             "status": "",
             "image": "neutrino-day-card",
@@ -105,7 +111,9 @@
                 ]
               }
             ],
-            "event": "Neutrino Day Festival\nSanford Underground Research Facility\nLead, South Dakota"
+            "events": [
+              "Neutrino Day Festival\nSanford Underground Research Facility\nLead, South Dakota"
+            ]
           },
           "page_heading": "SURF's Neutrino Day Festival",
           "text": [
@@ -221,7 +229,9 @@
                 ]
               }
             ],
-            "event": "Speaker’s Night\nRoyal Astronomical Society of Canada\nToronto"
+            "events": [
+              "Speaker’s Night\nRoyal Astronomical Society of Canada\nToronto"
+            ]
           },
           "page_heading": "The DUNE Experiment",
           "text": [
@@ -295,7 +305,9 @@
                 ]
               }
             ],
-            "event": "Allan I Carswell Observatory\nYork University, Canada"
+            "events": [
+              "Allan I Carswell Observatory\nYork University, Canada"
+            ]
           },
           "page_heading": "The triumphant discovery of the Higgs boson",
           "text": [
@@ -400,7 +412,9 @@
                 ]
               }
             ],
-            "event": "McGill Physical Society Colloquium"
+            "events": [
+              "McGill Physical Society Colloquium"
+            ]
           },
           "page_heading": "Sorting needles & cooling a sandwich",
           "text": [
@@ -417,7 +431,7 @@
           "slug": "atlas-masterclasses",
           "card": {
             "title": "ATLAS Masterclasses",
-            "subtitle": "Data analysis with ATLAS",
+            "subtitle": "Hands-on particle physics for high school students",
             "years": "",
             "status": "",
             "image": "atlas-masterclasses-card",
@@ -470,7 +484,9 @@
                 ]
               }
             ],
-            "event": "ATLAS Masterclass 2014\nUniversity of Victoria"
+            "events": [
+              "ATLAS Masterclass 2014\nUniversity of Victoria"
+            ]
           },
           "page_heading": "ATLAS Masterclasses",
           "text": [
@@ -539,7 +555,11 @@
                 ]
               }
             ],
-            "event": "Integrative Think Tank (ITT), AIMS South Africa\nAIMS Cameroon, Limbé\nAIMS South Africa, Muizenberg"
+            "events": [
+              "Integrative Think Tank (ITT), AIMS South Africa",
+              "AIMS Cameroon, Limbé",
+              "AIMS South Africa, Muizenberg"
+            ]
           },
           "page_heading": "How I became a scientist",
           "text": [
@@ -556,7 +576,7 @@
           "slug": "sst-congo",
           "card": {
             "title": "Science & Technology Week",
-            "subtitle": "Promoting a scientific culture among young people in the DRC",
+            "subtitle": "Promoting a scientific culture among youths in Congo DRC",
             "years": "",
             "status": "",
             "image": "sst-congo-card",
@@ -602,7 +622,9 @@
                 ]
               }
             ],
-            "event": "Semaine de la Science et des Technologies (SST), 10th edition\nDemocratic Republic of the Congo"
+            "events": [
+              "Semaine de la Science et des Technologies (SST), 10th edition\nDemocratic Republic of the Congo"
+            ]
           },
           "page_heading": "Science & Technology Week",
           "text": [
@@ -704,7 +726,9 @@
                 }
               ]
             ],
-            "event": "Vancouver International Film Festival (VIFF)"
+            "events": [
+              "Vancouver International Film Festival (VIFF)"
+            ]
           },
           "page_heading": "Particle Fever",
           "text": [
@@ -727,7 +751,7 @@
           "slug": "but-hbar",
           "card": {
             "title": "But hbar?",
-            "subtitle": "Scientists and artists on art and science",
+            "subtitle": "Particle Interactions in Physics and Arts: Artistic Transformation",
             "years": "",
             "status": "",
             "image": "but-hbar-card",
@@ -752,13 +776,15 @@
             "facts": [],
             "links_label": "Links",
             "links": [],
-            "event": "Emily Carr University of Art + Design (ECUAD)\nTRIUMF\nVancouver"
+            "events": [
+              "Emily Carr University of Art + Design (ECUAD)\nTRIUMF\nVancouver"
+            ]
           },
           "page_heading": "But hbar?",
           "text": [
             {
               "kind": "markdown",
-              "content": "## Particle Interactions in Physics and Arts: Artistic Transformation\n\nVancouver's Emily Carr University of Art + Design (ECUAD) invited scientists as part of a project to show the parallels between art and science. It all started when artists from ECUAD visited the TRIUMF particle physics laboratory to find inspiration for their work. Scientists were invited afterwards to comment on their creations. A fascinating discussion ensued, revealing surprising connections between two worlds and a common quest shared by scientists and artists: we both 'connect the unconnected.'\n\nI was reflecting on the question “Can art be treated as raw data?”"
+              "content": "Vancouver's Emily Carr University of Art + Design (ECUAD) invited scientists as part of a project to show the parallels between art and science. It all started when artists from ECUAD visited the TRIUMF particle physics laboratory to find inspiration for their work. Scientists were invited afterwards to comment on their creations. A fascinating discussion ensued, revealing surprising connections between two worlds and a common quest shared by scientists and artists: we both 'connect the unconnected.'\n\nI was reflecting on the question “Can art be treated as raw data?”"
             },
             {
               "kind": "figure-row",

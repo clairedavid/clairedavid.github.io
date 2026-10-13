@@ -125,10 +125,12 @@
         {{- end }}
         {{- /* Event (Talks only: the data key exists only there): where the talk
              was given, between Years and Status. */ -}}
-        {{- with $project.panel.event }}
+        {{- with $project.panel.events }}
         <div class="res-panel-block">
-          <h3>Event</h3>
-          <div class="res-panel-value">{{ partial "research/lines.html" . }}</div>
+          <h3>{{ if gt (len .) 1 }}Events{{ else }}Event{{ end }}</h3>
+          <div class="res-panel-value">
+            {{- range . }}<div class="res-event">{{ partial "research/lines.html" . }}</div>{{ end -}}
+          </div>
         </div>
         {{- end }}
         {{- with $project.panel.status }}

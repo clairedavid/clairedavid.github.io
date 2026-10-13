@@ -1,6 +1,6 @@
 == CARD ==
 Title: ATLAS Masterclasses
-Subtitle: Data analysis with ATLAS
+Subtitle: Hands-on particle physics for high school students
 Order: 6
 Card image: atlas-masterclasses-card.jpg
 

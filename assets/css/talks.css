@@ -23,3 +23,8 @@
    dropping the inner padding changes nothing you can see and keeps the
    heights equal to the pixel. */
 .res .res-figrow-item .res-figure-card { padding: 0; overflow: hidden }
+
+/* Several events in the left panel: each event keeps its lines together, and
+   the next one starts after a gap of about half a line (a margin rather than
+   an empty line, so it stays compact when the panel stacks on a phone). */
+.res .res-panel-value .res-event + .res-event { margin-top: .6em }

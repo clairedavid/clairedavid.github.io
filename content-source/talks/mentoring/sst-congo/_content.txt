@@ -1,6 +1,6 @@
 == CARD ==
 Title: Science & Technology Week
-Subtitle: Promoting a scientific culture among young people in the DRC
+Subtitle: Promoting a scientific culture among youths in Congo DRC
 Order: 2
 Card image: sst-congo-card.jpg
 

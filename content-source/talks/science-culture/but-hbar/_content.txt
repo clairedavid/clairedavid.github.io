@@ -1,6 +1,6 @@
 == CARD ==
 Title: But hbar?
-Subtitle: Scientists and artists on art and science
+Subtitle: Particle Interactions in Physics and Arts: Artistic Transformation
 Order: 2
 Card image: but-hbar-card.jpg
 
@@ -18,8 +18,6 @@ Vancouver
 But hbar?
 
 == TEXT ==
-
-## Particle Interactions in Physics and Arts: Artistic Transformation
 
 Vancouver's Emily Carr University of Art + Design (ECUAD) invited scientists as part of a project to show the parallels between art and science. It all started when artists from ECUAD visited the TRIUMF particle physics laboratory to find inspiration for their work. Scientists were invited afterwards to comment on their creations. A fascinating discussion ensued, revealing surprising connections between two worlds and a common quest shared by scientists and artists: we both 'connect the unconnected.'
 

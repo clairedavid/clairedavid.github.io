@@ -2,7 +2,7 @@
 layout: "simple"
 type: "research"
 area: "talks"
-subtitle: "Data analysis with ATLAS"
+subtitle: "Hands-on particle physics for high school students"
 title: "ATLAS Masterclasses"
 ---
 

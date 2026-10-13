@@ -16,7 +16,9 @@ its subdirectories and sorted by an optional "Order:" line in == CARD ==
 one, so dune-canada sorts before dune-computing without needing one.
 
 Each project's _content.txt holds, in this order:
-    == CARD ==          Key: value lines (Title, Subtitle, Years, Status,
+    == CARD ==          Key: value lines (Title, Subtitle, optional "Card
+                         subtitle" (the overview card's own line, Subtitle
+                         stays the page's), Years, Status,
                          Card image, optional Order, optional "Unlisted:
                          yes": the page still builds at its URL but is left
                          out of the overview grid, so Subtitle/Years/Card
@@ -39,8 +41,9 @@ Each project's _content.txt holds, in this order:
                          "Links" heading; an image line's file may have a
                          "<stem>-dark" sibling of any extension in
                          _converted/, shown instead in dark mode)
-                         Talks only: Event: (one or several lines, shown between
-                         Years and Status), Duration: and Languages: (after
+                         Talks only: Event: (one event on one or several lines;
+                         a blank line starts the next event, label becomes
+                         "Events"; shown between Years and Status), Duration: and Languages: (after
                          Format); Audience/Level: reads "Target audience"
                          there.
     == PAGE HEADING ==   a single line, becomes the page's title and h1
@@ -190,7 +193,7 @@ def parse_kv(body):
         m = re.match(r"^([A-Za-z ]+):\s*(.*)$", line)
         if m and m.group(1).strip() in (
             "Title", "Subtitle", "Years", "Status", "Card image", "Order",
-            "Style", "Role", "Image", "Credit", "Logo", "Unlisted", "Caption",
+            "Style", "Role", "Image", "Credit", "Logo", "Unlisted", "Caption", "Card subtitle",
         ):
             kv[m.group(1).strip()] = m.group(2).strip()
     return kv
@@ -289,7 +292,7 @@ def parse_card(body, slug, converted_dir):
         (converted_dir / f"{override}{ext}").exists()
         for ext in (".png", ".webp", ".jpg", ".svg"))
     image_stem = override if has_override else source_stem
-    return {
+    out = {
         "title": kv.get("Title", ""),
         "subtitle": kv.get("Subtitle", ""),
         "years": kv.get("Years", ""),
@@ -304,6 +307,12 @@ def parse_card(body, slug, converted_dir):
         # them for a page that is never shown as a tile.
         "unlisted": kv.get("Unlisted", "").strip().lower() in ("yes", "true"),
     }
+    # Optional "Card subtitle:": the overview card shows this instead of
+    # Subtitle (which stays the line under the page title). Only present in the
+    # data when a card sets it, so cards that do not are unchanged.
+    if kv.get("Card subtitle"):
+        out["card_subtitle"] = kv["Card subtitle"]
+    return out
 
 
 def parse_banner(body, slug, converted_dir):
@@ -529,6 +538,29 @@ def parse_facts_lines(body):
     return entries
 
 
+def parse_events(body):
+    """Talks only: the lines under "Event:" as a list of events. A blank line
+    between lines starts the next event; the lines of one event stay together
+    (name, institution, place). The panel shows "Event" for one entry and
+    "Events" for several, with a small gap between them (talks.css)."""
+    lines = body.split("\n")
+    start = next((i for i, l in enumerate(lines) if l.strip().startswith("Event:")), None)
+    if start is None:
+        return []
+    first = lines[start].split(":", 1)[1].strip()
+    groups = [[first]] if first else [[]]
+    for l in lines[start + 1:]:
+        t = l.strip()
+        if KNOWN_FIELD_RE.match(t):
+            break
+        if not t:
+            if groups[-1]:
+                groups.append([])
+            continue
+        groups[-1].append(t)
+    return ["\n".join(g) for g in groups if g]
+
+
 def parse_panel(body, card, slug, converted_dir):
     kv = parse_kv(body)
     team = [
@@ -547,7 +579,7 @@ def parse_panel(body, card, slug, converted_dir):
     fields = [{"label": shown.get(lab, lab), "values": v}
               for lab in ("Audience/Level", "Prerequisites", "Format", "Duration", "Languages")
               for v in [label_block(body, lab)] if v]
-    event = "\n".join(label_block(body, "Event"))
+    events = parse_events(body)
     out = {
         "role": kv.get("Role") or "\n".join(label_block(body, "Role")),
         # Years/Status fall back to the CARD's own, when the panel does not
@@ -565,8 +597,8 @@ def parse_panel(body, card, slug, converted_dir):
     }
     if fields:
         out["fields"] = fields
-    if event:
-        out["event"] = event   # Talks only: rendered between Years and Status
+    if events:
+        out["events"] = events   # Talks only: rendered between Years and Status
     return out
 
 

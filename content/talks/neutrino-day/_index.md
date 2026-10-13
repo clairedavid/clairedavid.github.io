@@ -2,7 +2,7 @@
 layout: "simple"
 type: "research"
 area: "talks"
-subtitle: "SURF's free science festival"
+subtitle: "What is DUNE, the Deep Underground Neutrino Experiment"
 title: "SURF's Neutrino Day Festival"
 ---
 

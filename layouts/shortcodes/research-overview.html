@@ -96,7 +96,7 @@
         </div>
         <div class="res-card-body">
           <div class="res-card-title">{{ $card.title }}</div>
-          <div class="res-card-subtitle">{{ $card.subtitle }}</div>
+          <div class="res-card-subtitle">{{ $card.card_subtitle | default $card.subtitle }}</div>
           {{- /* Talks cards carry a title and a subtitle only: no year. */}}
           {{- if ne $area "talks" }}
           <div class="res-card-years">{{ $card.years }}</div>
