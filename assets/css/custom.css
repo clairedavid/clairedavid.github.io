@@ -314,3 +314,15 @@ body {
 html.dark {
   --color-neutral-800: 28, 28, 29;
 }
+
+/* Mobile menu (fullscreen style), dark mode: the theme paints the overlay and
+   its close button with neutral-900 (navy), one palette step below the page
+   (neutral-800, redefined above). Reading the page's own variable keeps them
+   in step; the dropdown style already uses neutral-800 and is left alone. */
+html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) {
+  background-color: rgb(var(--color-neutral-800));
+}
+
+html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobile-menu-toggle"] {
+  background-color: rgb(var(--color-neutral-800));
+}
