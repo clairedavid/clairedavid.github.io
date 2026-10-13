@@ -1,7 +1,6 @@
 == CARD ==
 Title: A journey inside matter
 Subtitle: Experimental particle physics with the ATLAS & DUNE experiments
-Card subtitle: With the ATLAS & DUNE experiments
 Order: 1
 Card image: journey-inside-matter-card.jpg
 

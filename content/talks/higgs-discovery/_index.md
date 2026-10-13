@@ -2,7 +2,6 @@
 layout: "simple"
 type: "research"
 area: "talks"
-subtitle: "A half-a-century-long journey"
 title: "The triumphant discovery of the Higgs boson"
 ---
 

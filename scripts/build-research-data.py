@@ -986,10 +986,9 @@ def write_content_pages(projects):
         # Teaching pages reuse the research layout and shortcodes (type:
         # research) and say which area's data and URLs to use.
         area_fm = "" if AREA == "research" else f"type: \"research\"\narea: \"{AREA}\"\n"
-        # Talks: the card's Subtitle doubles as the line directly under the
-        # page title (layouts/research/simple.html prints .Params.subtitle).
-        if AREA == "talks" and p["card"]["subtitle"]:
-            area_fm += f"subtitle: {json.dumps(p['card']['subtitle'], ensure_ascii=False)}\n"
+        # Talks: no subtitle here. The line under the page title is read from
+        # the card's own Subtitle in data/talks.json at render time
+        # (layouts/research/simple.html), one source for card and page.
         area_arg = "" if AREA == "research" else f" area=\"{AREA}\""
         md = (
             "---\n"

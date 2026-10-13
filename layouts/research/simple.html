@@ -26,7 +26,16 @@
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
-      {{- with .Params.subtitle }}
+      {{- /* Talks pages: the line under the title is the card's own Subtitle,
+           read from data/talks.json at render time (the same field the
+           overview card reads), not from front matter, so the two can never
+           drift apart. Other areas keep using the front-matter subtitle. */ -}}
+      {{- $subtitle := .Params.subtitle -}}
+      {{- if and (eq $area "talks") (not $isOverview) -}}
+        {{- $slug := .File.ContentBaseName -}}
+        {{- range hugo.Data.talks.themes }}{{ range .projects }}{{ if eq .slug $slug }}{{ $subtitle = .card.subtitle }}{{ end }}{{ end }}{{ end -}}
+      {{- end -}}
+      {{- with $subtitle }}
       <p class="mt-2 text-lg text-neutral-500 dark:text-neutral-400">{{ . }}</p>
       {{- end }}
     </header>

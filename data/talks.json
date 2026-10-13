@@ -16,8 +16,7 @@
             "source_stem": "journey-inside-matter-card",
             "original_stem": "",
             "credit": "",
-            "unlisted": false,
-            "card_subtitle": "With the ATLAS & DUNE experiments"
+            "unlisted": false
           },
           "banner": {
             "images": [],
@@ -78,7 +77,7 @@
           "slug": "neutrino-day",
           "card": {
             "title": "SURF's Neutrino Day Festival",
-            "subtitle": "“DUNE: Piercing the secrets of neutrinos and the universe”",
+            "subtitle": "DUNE: Piercing the secrets of neutrinos and the universe",
             "years": "",
             "status": "",
             "image": "neutrino-day-card",
