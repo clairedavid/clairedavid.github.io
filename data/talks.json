@@ -444,12 +444,12 @@
             "style": "single",
             "single": "atlas-masterclasses-banner",
             "original_stem": "",
-            "credit": "",
-            "caption": "Sneak peek of the slides."
+            "credit": "Credit: ATLAS Collaboration and International Masterclasses",
+            "caption": "Sneak peek at the talk's slides."
           },
           "panel": {
             "role": "",
-            "years": "2014",
+            "years": "2014, 2025",
             "status": "",
             "logo": "",
             "team": [],
@@ -484,14 +484,42 @@
               }
             ],
             "events": [
-              "ATLAS Masterclass 2014\nUniversity of Victoria"
+              "University of Victoria, 2014",
+              "AIMS South Africa, 2025"
             ]
           },
           "page_heading": "ATLAS Masterclasses",
           "text": [
             {
+              "kind": "pullquote",
+              "text": "What do experimental particle physicists do? What do experimental particle physicists need?"
+            },
+            {
               "kind": "markdown",
-              "content": "What do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon.\n\nThis talk was presented during the ATLAS Masterclass 2014 at the University of Victoria. It was organized by Vispa."
+              "content": "This talk serves as an introduction to the ATLAS Masterclass, an international event hosted by participating schools or universities around the world inviting high school students to discover the physics of the Large Hadron Collider (LHC). Each LHC experiment has its dedicated Masterclass (and other particle physics experiments).\n\nIn the presentation, the learners get the essential theory explained in accessible terms. They learn about the detector parts and data analysis tools as well, preparing them for the hands-on session where they use an educational software called HYPATIA to perform a simplified data analysis. The event culminates with a videoconference led by CERN scientists where all the hosting institutes on the event discuss and combine their analysis results.\n\nIn March 2025, I organized the first ever Masterclass hosted at AIMS South Africa."
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "atlas-masterclasses-hypatia",
+                  "caption": "Hands-on session using HYPATIA (Hybrid Pupil's Analysis Tool for Interactions in ATLAS).",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 1200,
+                  "ratio": 1.333333,
+                  "needs_frame": false
+                },
+                {
+                  "image": "atlas-masterclasses-videoconference",
+                  "caption": "Videoconference chaired by CERN scientists, where all participating schools combine their results.",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 1200,
+                  "ratio": 1.333333,
+                  "needs_frame": false
+                }
+              ]
             }
           ],
           "figures": [],

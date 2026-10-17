@@ -6,16 +6,18 @@ Card image: atlas-masterclasses-card.jpg
 
 == BANNER ==
 Image: atlas-masterclasses-banner.jpg
-Caption: Sneak peek of the slides.
+Caption: Sneak peek at the talk's slides.
+Credit: Credit: ATLAS Collaboration and International Masterclasses
 
 == LEFT PANEL ==
 
 Years:
-2014
+2014, 2025
 
 Event:
-ATLAS Masterclass 2014
-University of Victoria
+University of Victoria, 2014
+
+AIMS South Africa, 2025
 
 Audience/Level:
 High school students
@@ -32,8 +34,22 @@ ATLAS Masterclasses
 
 == TEXT ==
 
-What do experimental particle physicists do? What do experimental particle physicists need? This talk explains the science done at the Large Hadron Collider and serves as introduction to the Masterclass hands-on session, where high school students have the opportunity to perform a simplified data analysis during an afternoon.
+[[PULL-QUOTE]]
+What do experimental particle physicists do?
+What do experimental particle physicists need?
+[[/PULL-QUOTE]]
 
-This talk was presented during the ATLAS Masterclass 2014 at the University of Victoria. It was organized by Vispa.
+This talk serves as an introduction to the ATLAS Masterclass, an international event hosted by participating schools or universities around the world inviting high school students to discover the physics of the Large Hadron Collider (LHC). Each LHC experiment has its dedicated Masterclass (and other particle physics experiments).
+
+In the presentation, the learners get the essential theory explained in accessible terms. They learn about the detector parts and data analysis tools as well, preparing them for the hands-on session where they use an educational software called HYPATIA to perform a simplified data analysis. The event culminates with a videoconference led by CERN scientists where all the hosting institutes on the event discuss and combine their analysis results.
+
+In March 2025, I organized the first ever Masterclass hosted at AIMS South Africa.
+
+[[FIGURE-ROW]]
+Image: atlas-masterclasses-hypatia.jpg
+Caption: Hands-on session using HYPATIA (Hybrid Pupil's Analysis Tool for Interactions in ATLAS).
+Image: atlas-masterclasses-videoconference.jpg
+Caption: Videoconference chaired by CERN scientists, where all participating schools combine their results.
+[[/FIGURE-ROW]]
 
 == TECHNICAL ==
