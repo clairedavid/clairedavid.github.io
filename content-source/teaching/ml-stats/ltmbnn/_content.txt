@@ -23,7 +23,6 @@ One-day workshop
 3–4 hours of coding (afternoon)
 
 Links:
-
 Based on my full course:
 [Introduction to Machine Learning ↗](https://clairedavid.github.io/intro_to_ml/intro.html)
 Sections Basics & Neural Networks
@@ -34,7 +33,7 @@ Learn The Math Behind Neural Networks!
 
 == TEXT ==
 
-This day workshop is a shorter version of my 30-hour course [Introduction to Machine Learning](/teaching/intro-to-ml/), but entirely focused on neural networks. Participants get the basics (linear and logistic regression), then a thorough walk through the mathematics of forward and backward propagation. After the blackboard derivations, the second part of the workshop is a hands-on session where participants enter all equations ‘by hand’ in a Python code. They go back home with a little neural network built from scratch on a Jupyter notebook, without using any fancy ML library.
+This day workshop is a shorter version of my 30-hour course [Introduction to Machine Learning](/teaching/intro-to-ml/), but entirely focused on neural networks. Participants get the basics (linear and logistic regression), then a thorough walk through the mathematics of forward and backward propagation. After the blackboard derivations, the second part of the workshop is a hands-on session where participants enter all equations ‘by hand’ in Python code. They go back home with a little neural network built from scratch in a Jupyter notebook, without using any fancy ML library.
 
 The goal is to show that the foundations behind any neural network, from simple to the latest LLM transformer, come from the simple application of the chain rule, put at scale.
 
@@ -49,6 +48,21 @@ A non-negligible feature of this workshop: it is way more fun and enriching if a
 If you are interested in hosting this at your institution, please [contact me](/contact/).
 
 
+## Testimonials
 
+[[TESTIMONIAL]]
+Quote: Claire’s course is exactly suited to the kind of course I like: intuitive and rigorous together. Solid math foundation, a very clear exposition. Claire is a wonderful teacher and textbook writer, it’s clear, precise and refreshing to read.
+Attribution: Prof Simon Connell, Department of Mechanical Engineering Science, University of Johannesburg, co-organiser of the workshop
+[[/TESTIMONIAL]]
+
+[[TESTIMONIAL]]
+Quote: I had the privilege of attending Prof. Claire’s excellent and engaging training on Neural Networks. I am truly impressed and inspired by her extensive knowledge, expertise, and exceptional ability to communicate complex concepts with clarity and depth. My sincere appreciation to Prof. Claire for delivering such an unforgettable learning experience.
+Attribution: Dr. Mavis Gezimati, Postdoctoral Researcher in Medical Device Technology
+[[/TESTIMONIAL]]
+
+[[TESTIMONIAL]]
+Quote: […] I particularly appreciated the way the mathematical concepts were connected to hands-on Python implementation, which helped me understand the fundamentals of machine learning more clearly. Prof. David was knowledgeable, supportive, and excellent at explaining complex concepts. Overall, it was a very valuable and enjoyable learning experience, and I would highly recommend the course to anyone interested in machine learning.
+Attribution: Emmanuel Igumbor (PhD), Research Coordinator, Department of Mechanical Engineering Science, Faculty of Engineering and the Built Environment, University of Johannesburg
+[[/TESTIMONIAL]]
 
 == TECHNICAL ==

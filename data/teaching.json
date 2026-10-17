@@ -104,8 +104,43 @@
             },
             {
               "kind": "testimonial",
+              "quote": "[Claire] taught us the fundamentals through her enthusiastic explanations and her signature teaching stick, encouraging us to dive deep into the mathematics of learning theory and the algorithms. […] Our class was full of brilliant people coming from all around Africa, but being in an entirely new and different environment, everyone was stressed during the first few days. […] her lectures were amazing, not only because of the fantastic content but also because of how she helped us come together to form a strong community.",
+              "attribution": "Toavina Leong Pock Tsy, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "A transformative three weeks. Coming from brief online courses, this was my first deep dive into actual ML theory. Working through backpropagation on paper before building neural networks from scratch bridged the gap between surface-level concepts and true understanding. A phenomenal curriculum capped off by a great hands-on project.",
+              "attribution": "Hassan Suliman, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "What I appreciated most was [Prof. Claire’s] ability to combine kindness, discipline, and high academic standards. Her teaching encouraged us to think deeply instead of simply memorizing concepts. Beyond the course itself, she created a very positive atmosphere between students, encouraged communication and teamwork, and was always supportive and approachable. She contributed a lot to making the AIMS experience both academically strong and human.",
+              "attribution": "Mahugnon Aime Loick Gohouede, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
               "quote": "Building machine learning models by hand gave us a much deeper understanding of the mathematical intuition behind the algorithms instead of simply relying on libraries and automation. Beyond the technical knowledge, the course encouraged curiosity, critical thinking, and confidence in exploring AI further. This course has strengthened my motivation to continue working in AI and Data Science […] If I’m working with Deep Learning neural network[s] now (PINNs), it’s because of my understanding of the course concepts and building [the latter] by hand.",
               "attribution": "Ernest Katembo Muhasa, MSc student, AIMS Cameroon, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "Every class was a relaxing moment for us, not because the lesson was that easy but because Prof Claire was full of energy, full of good vibe […] the fact that she always uses the sentence “don’t forget to have fun” was a kind of reminder that, hey guys, this course is not here to stress you even if it can be difficult. […] I cannot forget the chocolate part: she was giving chocolate for every good suggestion you do, for every typo found in her notes […] in terms of teaching skill, Prof Claire deserves a big A for me.",
+              "attribution": "Jordan De Kenang Tagni, MSc student, AIMS Cameroon, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "Before coming to AIMS, I had no experience with Machine Learning, but your course gave me a very solid foundation. At first, I found ML quite challenging, even while the course was ongoing. However, during the review block, my perspective completely changed when I realized I could seamlessly apply the concepts and techniques from your course in other data science classes. […] What stood out most to me was how interactive your classes were. You were always open to questions and took the time to explain concepts clearly.",
+              "attribution": "Israel Oluwamayomikun Alabi, MSc student, AIMS Cameroon, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "The course “Introduction to Machine Learning and Artificial Intelligence” taught me almost everything I needed to know as a beginner in the field. Taking this course in the early days of my Masters program helped me to appreciate the subsequent courses. Your patience, eloquence, expertise and availability made the course an exceptional one.",
+              "attribution": "Priscilla Obo Otoo, MSc student, AIMS Cameroon, 2025–2026"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "Your course was one of the most engaging and refreshing experiences I had at AIMS. I especially appreciated the way you made complex ideas approachable while still encouraging us to think deeply and independently. Your enthusiasm, humour, and openness created an atmosphere where learning felt both challenging and enjoyable.",
+              "attribution": "Charles Aveved, MSc student, AIMS Cameroon, 2025–2026"
             },
             {
               "kind": "testimonial",
@@ -119,58 +154,8 @@
             },
             {
               "kind": "testimonial",
-              "quote": "[Claire] taught us the fundamentals through her enthusiastic explanations and her signature teaching stick, encouraging us to dive deep into the mathematics of learning theory and the algorithms. […] Our class was full of brilliant people coming from all around Africa, but being in an entirely new and different environment, everyone was stressed during the first few days. […] her lectures were amazing, not only because of the fantastic content but also because of how she helped us come together to form a strong community.",
-              "attribution": "Toavina Leong Pock Tsy, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "Before coming to AIMS, I had no experience with Machine Learning, but your course gave me a very solid foundation. At first, I found ML quite challenging, even while the course was ongoing. However, during the review block, my perspective completely changed when I realized I could seamlessly apply the concepts and techniques from your course in other data science classes. […] What stood out most to me was how interactive your classes were. You were always open to questions and took the time to explain concepts clearly.",
-              "attribution": "Israel Oluwamayomikun Alabi, MSc student, AIMS Cameroon, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
               "quote": "I absolutely loved your in-person Intro to ML course! It was brilliantly clear and simplified, so everyone from different backgrounds could follow along easily. You were so passionate, dedicated, and masterful with every tiny detail. Your infectious energy made it truly exciting! The class ignited my passion for ML years ago, and I’m still applying those skills today.",
               "attribution": "Ann Wangui, MSc student, AIMS South Africa, 2022–2023"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "A transformative three weeks. Coming from brief online courses, this was my first deep dive into actual ML theory. Working through backpropagation on paper before building neural networks from scratch bridged the gap between surface-level concepts and true understanding. A phenomenal curriculum capped off by a great hands-on project.",
-              "attribution": "Hassan Suliman, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "Every class was a relaxing moment for us, not because the lesson was that easy but because Prof Claire was full of energy, full of good vibe […] the fact that she always uses the sentence “don’t forget to have fun” was a kind of reminder that, hey guys, this course is not here to stress you even if it can be difficult. […] I cannot forget the chocolate part: she was giving chocolate for every good suggestion you do, for every typo found in her notes […] in terms of teaching skill, Prof Claire deserves a big A for me.",
-              "attribution": "Jordan De Kenang Tagni, MSc student, AIMS Cameroon, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "What I appreciated most was [Prof. Claire’s] ability to combine kindness, discipline, and high academic standards. Her teaching encouraged us to think deeply instead of simply memorizing concepts. Beyond the course itself, she created a very positive atmosphere between students, encouraged communication and teamwork, and was always supportive and approachable. She contributed a lot to making the AIMS experience both academically strong and human.",
-              "attribution": "Mahugnon Aime Loick Gohouede, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "You made difficult concepts easier to understand, and I appreciated how supportive and engaging your teaching was throughout the course. The course helped me identify my interests and improved my confidence in machine learning.",
-              "attribution": "Ophelia Dankyi, _AI for Science_ MSc student, AIMS South Africa, 2024–2025"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "Prof. Claire is exceptional, passionate, always available and present for us. She gave me confidence in my ability to learn in the field of AI and to understand the basics of ML and algorithms. Thanks to her explanations, I finally found it easy to grasp the complex concepts behind neural networks and to code from scratch. What impressed me was her organisation and motivation, which inspired everyone to follow along and learn with joy.",
-              "attribution": "Josué Romaric Edou, _AI for Science_ MSc student, AIMS South Africa, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "Your course was one of the most engaging and refreshing experiences I had at AIMS. I especially appreciated the way you made complex ideas approachable while still encouraging us to think deeply and independently. Your enthusiasm, humour, and openness created an atmosphere where learning felt both challenging and enjoyable.",
-              "attribution": "Charles Aveved, MSc student, AIMS Cameroon, 2025–2026"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "Your teaching helped me understand the fundamental principles of AI and Machine Learning […] I particularly appreciated the clear explanations and practical approach you used during the course. The knowledge I gained continues to support my academic and research journey in cybersecurity and AI.",
-              "attribution": "Kokeb Gebremedhin Gebrehiwot, MSc student, AIMS Senegal, 2023–2025"
-            },
-            {
-              "kind": "testimonial",
-              "quote": "The course “Introduction to Machine Learning and Artificial Intelligence” taught me almost everything I needed to know as a beginner in the field. Taking this course in the early days of my Masters program helped me to appreciate the subsequent courses. Your patience, eloquence, expertise and availability made the course an exceptional one.",
-              "attribution": "Priscilla Obo Otoo, MSc student, AIMS Cameroon, 2025–2026"
             }
           ],
           "figures": [],
@@ -258,7 +243,7 @@
           "text": [
             {
               "kind": "markdown",
-              "content": "This day workshop is a shorter version of my 30-hour course [Introduction to Machine Learning](/teaching/intro-to-ml/), but entirely focused on neural networks. Participants get the basics (linear and logistic regression), then a thorough walk through the mathematics of forward and backward propagation. After the blackboard derivations, the second part of the workshop is a hands-on session where participants enter all equations ‘by hand’ in a Python code. They go back home with a little neural network built from scratch on a Jupyter notebook, without using any fancy ML library.\n\nThe goal is to show that the foundations behind any neural network, from simple to the latest LLM transformer, come from the simple application of the chain rule, put at scale."
+              "content": "This day workshop is a shorter version of my 30-hour course [Introduction to Machine Learning](/teaching/intro-to-ml/), but entirely focused on neural networks. Participants get the basics (linear and logistic regression), then a thorough walk through the mathematics of forward and backward propagation. After the blackboard derivations, the second part of the workshop is a hands-on session where participants enter all equations ‘by hand’ in Python code. They go back home with a little neural network built from scratch in a Jupyter notebook, without using any fancy ML library.\n\nThe goal is to show that the foundations behind any neural network, from simple to the latest LLM transformer, come from the simple application of the chain rule, put at scale."
             },
             {
               "kind": "figure-row",
@@ -276,7 +261,22 @@
             },
             {
               "kind": "markdown",
-              "content": "A non-negligible feature of this workshop: it is way more fun and enriching if attendees span many ages and stages as well as disciplines and specialties. I had a blast pairing honours undergraduates with emeritus professors, both new to machine learning, for impromptu yet sparkling collaboration.\n\nIf you are interested in hosting this at your institution, please [contact me](/contact/)."
+              "content": "A non-negligible feature of this workshop: it is way more fun and enriching if attendees span many ages and stages as well as disciplines and specialties. I had a blast pairing honours undergraduates with emeritus professors, both new to machine learning, for impromptu yet sparkling collaboration.\n\nIf you are interested in hosting this at your institution, please [contact me](/contact/).\n\n\n## Testimonials"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "Claire’s course is exactly suited to the kind of course I like: intuitive and rigorous together. Solid math foundation, a very clear exposition. Claire is a wonderful teacher and textbook writer, it’s clear, precise and refreshing to read.",
+              "attribution": "Prof Simon Connell, Department of Mechanical Engineering Science, University of Johannesburg, co-organiser of the workshop"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "I had the privilege of attending Prof. Claire’s excellent and engaging training on Neural Networks. I am truly impressed and inspired by her extensive knowledge, expertise, and exceptional ability to communicate complex concepts with clarity and depth. My sincere appreciation to Prof. Claire for delivering such an unforgettable learning experience.",
+              "attribution": "Dr. Mavis Gezimati, Postdoctoral Researcher in Medical Device Technology"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "[…] I particularly appreciated the way the mathematical concepts were connected to hands-on Python implementation, which helped me understand the fundamentals of machine learning more clearly. Prof. David was knowledgeable, supportive, and excellent at explaining complex concepts. Overall, it was a very valuable and enjoyable learning experience, and I would highly recommend the course to anyone interested in machine learning.",
+              "attribution": "Emmanuel Igumbor (PhD), Research Coordinator, Department of Mechanical Engineering Science, Faculty of Engineering and the Built Environment, University of Johannesburg"
             }
           ],
           "figures": [],
@@ -355,7 +355,7 @@
                 {
                   "image": "derivation-doppler",
                   "caption": "Extract of lecture slides, chapter 1, Doppler derivation",
-                  "credit": "Credit: Claire David",
+                  "credit": "",
                   "width": 1600,
                   "height": 901,
                   "ratio": 1.775805,
@@ -383,13 +383,23 @@
             },
             {
               "kind": "testimonial",
+              "quote": "Fittingly for a relativity course, one of Claire’s strong points was showing perspective, the “reference frames” of different physicists, so to speak. She walked the class through how classical and modern physics tackled the same problems under different conditions, so the equations made sense in context.\nWhat stood out most, though, was how inspiring the course was. Puzzles like the twin paradox are the kind of questions that awaken curiosity, and that curiosity matters more than how easy or hard a course is, because it’s what drives students to find the answers to even the hardest problems.",
+              "attribution": "Giulio Gesuelli"
+            },
+            {
+              "kind": "testimonial",
+              "quote": "I thoroughly enjoyed Special Relativity with Dr. David. Her teaching style was direct, clear, and infused with all the wonder and thought experiments that make learning physics fun. She was kind and very clearly enthusiastic.",
+              "attribution": "Andrew Brkovic"
+            },
+            {
+              "kind": "testimonial",
               "quote": "Professor Claire David truly was one of the best professors I had the pleasure of being taught by during my undergraduate degree at York University. She cared deeply about the performance and well-being of her students both in and beyond the classroom.",
               "attribution": "Darren Singh, Associate Manager, Reporting and Analytics, Enterprise Risk Management"
             },
             {
               "kind": "testimonial",
-              "quote": "Fittingly for a relativity course, one of your strong points was showing perspective, the \"reference frames\" of different physicists, so to speak. You walked us through how classical and modern physics tackled the same problems under different conditions, so the equations made sense in context.\nWhat stood out most, though, was how inspiring the course was. Puzzles like the twin paradox are the kind of questions that awaken curiosity, and that curiosity matters more than how easy or hard a course is, because it's what drives students to find the answers to even the hardest problems.",
-              "attribution": "Giulio Gesuelli"
+              "quote": "It was a great experience taking a course with Dr. Claire during my undergraduate studies at York University in Ontario, Canada. She was enthusiastic, taught with passion, and explained difficult concepts in a very clear and accessible way.\nDr. Claire helped me in my ongoing research career as well, as she also was my first research advisor, for a semester. I really enjoyed researching with her as she was very understanding and supportive.",
+              "attribution": "Majd Noel, PhD student, Western University, Ontario, Canada"
             }
           ],
           "figures": [],
@@ -459,7 +469,7 @@
                 {
                   "image": "aims-ghana-2019",
                   "caption": "Joy scattering at the end of the Life of a Particle course, AIMS Ghana, 2019.",
-                  "credit": "Credit: Claire David",
+                  "credit": "",
                   "width": 1600,
                   "height": 953,
                   "ratio": 1.678909,

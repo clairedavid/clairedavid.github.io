@@ -16,7 +16,6 @@ Audience/Level:
 Second-year undergraduates
 Physics or Engineering majors
 
-
 Prerequisites:
 First-year Physics
 
@@ -44,7 +43,6 @@ In this introduction to the theories of relativity and quantum mechanics, the re
 [[FIGURE-ROW]]
 Image: derivation-doppler.png
 Caption: Extract of lecture slides, chapter 1, Doppler derivation
-Credit: Credit: Claire David
 Image: energy-spectrum.png
 Caption: Extract of lecture slides, chapter 2, energy spectrum
 Credit: Credit: original figure from [OpenStax, University Physics Volume 3 (CC BY 4.0) ↗](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/University_Physics_III_-_Optics_and_Modern_Physics_%28OpenStax%29/06:_Photons_and_Matter_Waves/6.02:_Blackbody_Radiation), modified by Claire David
@@ -55,22 +53,34 @@ Credit: Credit: original figure from [OpenStax, University Physics Volume 3 (CC 
 Feedback collected from students after the course and shared with their permission.
 
 [[TESTIMONIAL]]
-Quote: Prof. David is genuinely one of the best physics professors I’ve ever had. She taught me quantum mechanics in my second year of university, and I still remember how she managed to make something so confusing feel so simple and easy to understand. I’m really grateful I had the chance to learn from her, and I wish more professors shared her enthusiasm. 
+Quote: Prof. David is genuinely one of the best physics professors I’ve ever had. She taught me quantum mechanics in my second year of university, and I still remember how she managed to make something so confusing feel so simple and easy to understand. I’m really grateful I had the chance to learn from her, and I wish more professors shared her enthusiasm.
 Attribution: Elham Rahimi, Math Teacher in Al-Bayan Bilingual School in Kuwait
 [[/TESTIMONIAL]]
 
+[[TESTIMONIAL]]
+Quote: Fittingly for a relativity course, one of Claire’s strong points was showing perspective, the “reference frames” of different physicists, so to speak. She walked the class through how classical and modern physics tackled the same problems under different conditions, so the equations made sense in context.
+
+What stood out most, though, was how inspiring the course was. Puzzles like the twin paradox are the kind of questions that awaken curiosity, and that curiosity matters more than how easy or hard a course is, because it’s what drives students to find the answers to even the hardest problems.
+Attribution: Giulio Gesuelli
+[[/TESTIMONIAL]]
+
+[[TESTIMONIAL]]
+Quote: I thoroughly enjoyed Special Relativity with Dr. David. Her teaching style was direct, clear, and infused with all the wonder and thought experiments that make learning physics fun. She was kind and very clearly enthusiastic.
+Attribution: Andrew Brkovic
+[[/TESTIMONIAL]]
 
 [[TESTIMONIAL]]
 Quote: Professor Claire David truly was one of the best professors I had the pleasure of being taught by during my undergraduate degree at York University. She cared deeply about the performance and well-being of her students both in and beyond the classroom.
 Attribution: Darren Singh, Associate Manager, Reporting and Analytics, Enterprise Risk Management
 [[/TESTIMONIAL]]
 
-
 [[TESTIMONIAL]]
-Quote: Fittingly for a relativity course, one of your strong points was showing perspective, the "reference frames" of different physicists, so to speak. You walked us through how classical and modern physics tackled the same problems under different conditions, so the equations made sense in context.
-What stood out most, though, was how inspiring the course was. Puzzles like the twin paradox are the kind of questions that awaken curiosity, and that curiosity matters more than how easy or hard a course is, because it's what drives students to find the answers to even the hardest problems.
-Attribution: Giulio Gesuelli
+Quote: It was a great experience taking a course with Dr. Claire during my undergraduate studies at York University in Ontario, Canada. She was enthusiastic, taught with passion, and explained difficult concepts in a very clear and accessible way.
+
+Dr. Claire helped me in my ongoing research career as well, as she also was my first research advisor, for a semester. I really enjoyed researching with her as she was very understanding and supportive.
+Attribution: Majd Noel, PhD student, Western University, Ontario, Canada
 [[/TESTIMONIAL]]
+
 
 
 == TECHNICAL ==
