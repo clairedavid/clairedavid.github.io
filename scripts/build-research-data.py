@@ -731,8 +731,11 @@ def split_text_blocks(raw_text):
         elif m.group(1) == "VIDEO":
             blocks.append({"kind": "video", **parse_video(m.group(2))})
         elif m.group(1) == "PULL-QUOTE":
-            # one short sentence, shown large and centred (see talks.css)
-            blocks.append({"kind": "pullquote", "text": " ".join(m.group(2).split())})
+            # shown large and centred (see talks.css); each source line is
+            # kept on its own line, joined with "\n" (the template turns it
+            # into a line break)
+            lines = [" ".join(l.split()) for l in m.group(2).splitlines()]
+            blocks.append({"kind": "pullquote", "text": "\n".join(l for l in lines if l)})
         else:
             blocks.append({"kind": "testimonial", **parse_testimonial(m.group(2))})
         pos = m.end()

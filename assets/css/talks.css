@@ -16,6 +16,8 @@
   line-height: 1.35;
   color: var(--res-ink);
 }
+/* More than one line: each source line sits on its own line, a little looser. */
+.res .res-pullquote.res-pullquote-lines { line-height: 1.6 }
 
 /* Figure rows: the row makes its figures the same height by giving each a
    flex-grow equal to its width/height ratio, which is exact only while the

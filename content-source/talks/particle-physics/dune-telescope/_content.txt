@@ -1,7 +1,7 @@
 == CARD ==
 Title: The DUNE Experiment
 Subtitle: Embark on the neutrino telescope to pierce the secrets of matter!
-Order: 3
+Order: 4
 Card image: dune-telescope-card.jpg
 
 == LEFT PANEL ==

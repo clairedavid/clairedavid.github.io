@@ -1,7 +1,7 @@
 == CARD ==
 Title: The triumphant discovery of the Higgs boson
 Subtitle: A half-a-century-long journey
-Order: 4
+Order: 6
 Card image: higgs-discovery-card.jpg
 
 == LEFT PANEL ==

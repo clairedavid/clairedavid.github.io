@@ -255,7 +255,7 @@
             <footer class="res-testimonial-by">{{ .attribution | markdownify }}</footer>
           </blockquote>
           {{- else if eq .kind "pullquote" }}
-          <p class="res-pullquote">{{ .text }}</p>
+          <p class="res-pullquote{{ if in .text "\n" }} res-pullquote-lines{{ end }}">{{ replace (.text | htmlEscape) "\n" "<br>" | safeHTML }}</p>
           {{- else if eq .kind "video" }}
           {{- /* [[VIDEO]] block (Talks): Hugo's built-in youtube shortcode,
                privacy-enhanced (youtube-nocookie, set in hugo.toml) and lazy

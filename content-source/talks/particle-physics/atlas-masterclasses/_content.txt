@@ -1,7 +1,7 @@
 == CARD ==
 Title: ATLAS Masterclasses
 Subtitle: Hands-on particle physics for high school students
-Order: 6
+Order: 1
 Card image: atlas-masterclasses-card.jpg
 
 == BANNER ==
@@ -47,9 +47,9 @@ In March 2025, I organized the first ever Masterclass hosted at AIMS South Afric
 
 [[FIGURE-ROW]]
 Image: atlas-masterclasses-hypatia.jpg
-Caption: Hands-on session using HYPATIA (Hybrid Pupil's Analysis Tool for Interactions in ATLAS).
+Caption: Participants using HYPATIA (Hybrid Pupil’s Analysis Tool for Interactions in ATLAS) during the hands-on session.
 Image: atlas-masterclasses-videoconference.jpg
-Caption: Videoconference chaired by CERN scientists, where all participating schools combine their results.
+Caption: The closing videoconference chaired by CERN scientists, where all participating schools combine their results.
 [[/FIGURE-ROW]]
 
 == TECHNICAL ==
