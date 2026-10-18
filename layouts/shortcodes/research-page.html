@@ -244,7 +244,7 @@
              build-research-data.py), not one string, so a [[FIGURE-ROW]]
              block can render as its own flex layout instead of being
              passed through markdownify as literal text. */}}
-        {{- range $project.text }}
+        {{- range $i, $block := $project.text }}
           {{- if eq .kind "testimonial" }}
           {{- /* Quote kept verbatim (escaped, not markdown); the attribution is
                inline markdown, for _italics_. */}}
@@ -270,7 +270,18 @@
           {{- else if eq .kind "figure-row" }}
           {{- partial "research/figure-row.html" (dict "area" $area "slug" $slug "images" .images) }}
           {{- else }}
-          {{ .content | markdownify }}
+          {{- /* markdownify drops the <p> around a block that is a single
+               paragraph, leaving bare text with no margin below it. Put the
+               <p> back only when a video follows, which otherwise sits
+               right against the text. */}}
+          {{- $html := .content | markdownify }}
+          {{- $next := dict }}
+          {{- if lt (add $i 1) (len $project.text) }}{{ $next = index $project.text (add $i 1) }}{{ end }}
+          {{- if and (eq $next.kind "video") (not (hasPrefix (strings.TrimSpace (string $html)) "<")) }}
+          <p>{{ $html }}</p>
+          {{- else }}
+          {{ $html }}
+          {{- end }}
           {{- end }}
         {{- end }}
 
