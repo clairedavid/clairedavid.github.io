@@ -1,16 +1,18 @@
 == CARD ==
 Title: Particle Fever
-Subtitle: Panel at the Vancouver International Film Festival
+Subtitle: Screenings followed by discussion panels
 Order: 1
 Card image: particle-fever-card.jpg
 
 == LEFT PANEL ==
 
 Years:
-2013
+2013, 2023–2026
 
 Event:
-Vancouver International Film Festival (VIFF)
+Vancouver International Film Festival (VIFF), 2013
+
+AIMS South Africa, 2023–2026
 
 Links:
 Label: Official website
@@ -21,13 +23,29 @@ Particle Fever
 
 == TEXT ==
 
-In 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.
-
 Particle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest.
 
 [[VIDEO]]
 ID: Rikc7foqvRI
 Title: PARTICLE FEVER - Official Trailer (2014) HD
 [[/VIDEO]]
+
+## Panel at the Vancouver International Film Festival, 2013
+
+In 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.
+
+## Screenings at AIMS South Africa, 2023–2026
+
+During my time at AIMS South Africa, I organized three screenings of Particle Fever with a post-movie surprise for the students: some cast members, aka the highlighted physicists the movie crew followed for seven years, showed up for a live chat! Thank you to Monica Dunford and Martin Aleksa for their time late at night!
+
+[[FIGURE-ROW]]
+Image: particle-fever-aims-2024.jpg
+Caption: Screening during Onboarding Week, September 2024, with Monica Dunford live on screen.
+[[/FIGURE-ROW]]
+
+[[FIGURE-ROW]]
+Image: particle-fever-aims-2026.jpg
+Caption: Screening in February 2026, with Martin Aleksa live on screen.
+[[/FIGURE-ROW]]
 
 == TECHNICAL ==

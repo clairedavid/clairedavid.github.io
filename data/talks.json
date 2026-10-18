@@ -708,14 +708,14 @@
     },
     {
       "id": "science-culture",
-      "title": "Science & Culture",
+      "title": "Science, art and culture",
       "intro": [],
       "projects": [
         {
           "slug": "particle-fever",
           "card": {
             "title": "Particle Fever",
-            "subtitle": "Panel at the Vancouver International Film Festival",
+            "subtitle": "Screenings followed by discussion panels",
             "years": "",
             "status": "",
             "image": "particle-fever-card",
@@ -733,7 +733,7 @@
           },
           "panel": {
             "role": "",
-            "years": "2013",
+            "years": "2013, 2023–2026",
             "status": "",
             "logo": "",
             "team": [],
@@ -754,20 +754,53 @@
               ]
             ],
             "events": [
-              "Vancouver International Film Festival (VIFF)"
+              "Vancouver International Film Festival (VIFF), 2013",
+              "AIMS South Africa, 2023–2026"
             ]
           },
           "page_heading": "Particle Fever",
           "text": [
             {
               "kind": "markdown",
-              "content": "In 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.\n\nParticle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest."
+              "content": "Particle Fever makes you experience the frantic moments of the Large Hadron Collider's biggest achievement: the discovery of the Higgs boson. With a bit of Hollywood vibes, it gives you a glimpse of the joys, the pains, the adrenalin and the determination of scientists who took part in this quest."
             },
             {
               "kind": "video",
               "id": "Rikc7foqvRI",
               "title": "PARTICLE FEVER - Official Trailer (2014) HD",
               "start": ""
+            },
+            {
+              "kind": "markdown",
+              "content": "## Panel at the Vancouver International Film Festival, 2013\n\nIn 2013 during my doctoral studies, I arrived one day to TRIUMF to discover a VIFF gold pass on my desk. The Canadian laboratory for nuclear and particle physics selected me to be part of the panel discussion of Particle Fever in Vancouver. I went to the big theatre and got quite emotional, especially while recognizing many of my colleagues on a big screen. The movie directors were there and I could share with the audience afterwards what it is to be an experimental particle physicist.\n\n## Screenings at AIMS South Africa, 2023–2026\n\nDuring my time at AIMS South Africa, I organized three screenings of Particle Fever with a post-movie surprise for the students: some cast members, aka the highlighted physicists the movie crew followed for seven years, showed up for a live chat! Thank you to Monica Dunford and Martin Aleksa for their time late at night!"
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "particle-fever-aims-2024",
+                  "caption": "Screening during Onboarding Week, September 2024, with Monica Dunford live on screen.",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 868,
+                  "ratio": 1.843318,
+                  "needs_frame": false
+                }
+              ]
+            },
+            {
+              "kind": "figure-row",
+              "images": [
+                {
+                  "image": "particle-fever-aims-2026",
+                  "caption": "Screening in February 2026, with Martin Aleksa live on screen.",
+                  "credit": "",
+                  "width": 1600,
+                  "height": 868,
+                  "ratio": 1.843318,
+                  "needs_frame": false
+                }
+              ]
             }
           ],
           "figures": [],
