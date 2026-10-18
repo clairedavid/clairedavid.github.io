@@ -1,0 +1,31 @@
+== CARD ==
+Title: Time & Project Management
+Subtitle: Tips and tricks to make your student life easier
+Order: 1
+Card image: time-project-mgmt-card.jpg
+
+== LEFT PANEL ==
+
+Years:
+2022–2026
+
+Events:
+AIMS South Africa, 2022, 2024, 2025
+
+AIMS Senegal, 2023
+
+AIMS Ghana, 2023
+
+AIMS Cameroon, 2023–2026
+
+Audience/Level:
+High school and university students
+
+== PAGE HEADING ==
+Time & Project Management
+
+== TEXT ==
+
+Behind every achievement lies effective organisation. In this interactive talk, I will give you tips and tricks to better manage your time, your projects, and your mental health. I will introduce the pacing technique called Pomodoro, as well as the Eisenhower Matrix for prioritizing your tasks, SMART goals and their pros and cons, and the Gantt chart to visualize a schedule. I will then showcase free online tools, some of which I use every day, to better organize your work. Come with a pen, some paper and your good mood!
+
+== TECHNICAL ==

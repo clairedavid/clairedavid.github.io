@@ -600,6 +600,55 @@
           "has_math": false
         },
         {
+          "slug": "time-project-mgmt",
+          "card": {
+            "title": "Time & Project Management",
+            "subtitle": "Tips and tricks to make your student life easier",
+            "years": "",
+            "status": "",
+            "image": "time-project-mgmt-card",
+            "source_stem": "time-project-mgmt-card",
+            "original_stem": "",
+            "credit": "",
+            "unlisted": false
+          },
+          "banner": {
+            "images": [],
+            "style": "row",
+            "single": "",
+            "original_stem": "",
+            "credit": ""
+          },
+          "panel": {
+            "role": "",
+            "years": "2022–2026",
+            "status": "",
+            "logo": "",
+            "team": [],
+            "facts": [],
+            "links_label": "Links",
+            "links": [],
+            "fields": [
+              {
+                "label": "Target audience",
+                "values": [
+                  "High school and university students"
+                ]
+              }
+            ]
+          },
+          "page_heading": "Time & Project Management",
+          "text": [
+            {
+              "kind": "markdown",
+              "content": "Behind every achievement lies effective organisation. In this interactive talk, I will give you tips and tricks to better manage your time, your projects, and your mental health. I will introduce the pacing technique called Pomodoro, as well as the Eisenhower Matrix for prioritizing your tasks, SMART goals and their pros and cons, and the Gantt chart to visualize a schedule. I will then showcase free online tools, some of which I use every day, to better organize your work. Come with a pen, some paper and your good mood!"
+            }
+          ],
+          "figures": [],
+          "technical": "",
+          "has_math": false
+        },
+        {
           "slug": "sst-congo",
           "card": {
             "title": "Science & Technology Week",
