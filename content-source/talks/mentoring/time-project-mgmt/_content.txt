@@ -9,7 +9,7 @@ Card image: time-project-mgmt-card.jpg
 Years:
 2022–2026
 
-Events:
+Event:
 AIMS South Africa, 2022, 2024, 2025
 
 AIMS Senegal, 2023

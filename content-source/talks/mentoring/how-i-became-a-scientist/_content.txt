@@ -1,7 +1,7 @@
 == CARD ==
 Title: How I became a scientist
 Subtitle: The backstory not written in my CV
-Order: 1
+Order: 2
 Card image: how-i-became-a-scientist-card.jpg
 
 == LEFT PANEL ==
