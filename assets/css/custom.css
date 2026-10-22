@@ -359,13 +359,13 @@ html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobi
 .site-title-link {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 .site-logo {
   display: block;
   flex: none;
-  height: 40px;
+  height: 32px;
   width: auto;
   color: #1c304e;
 }
