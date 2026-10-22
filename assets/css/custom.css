@@ -326,3 +326,28 @@ html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) {
 html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobile-menu-toggle"] {
   background-color: rgb(var(--color-neutral-800));
 }
+
+/* Talks and Teaching tab subtitle: the link sits outside .prose, so it gets
+   the body-link colours by hand (primary-600 light, primary-400 dark), with a
+   visible underline. Hover matches the site's links; the underline firms up. */
+.res-tab-subtitle a {
+  color: rgb(var(--color-primary-600));
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--color-primary-300), 1);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.res-tab-subtitle a:hover {
+  text-decoration-color: currentColor;
+}
+
+.dark .res-tab-subtitle a {
+  color: rgb(var(--color-primary-400));
+  text-decoration-color: rgba(var(--color-primary-600), 1);
+}
+
+.dark .res-tab-subtitle a:hover {
+  text-decoration-color: currentColor;
+}
