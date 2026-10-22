@@ -352,3 +352,24 @@ html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobi
   text-decoration-color: currentColor;
   text-decoration-thickness: 2px;
 }
+
+/* Header: CD monogram left of the site title, in the same home link.
+   40 px tall, width from the artwork's aspect ratio, 8 px gap, centred with
+   the name. Colour comes from currentColor on the inline SVG. */
+.site-title-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-logo {
+  display: block;
+  flex: none;
+  height: 40px;
+  width: auto;
+  color: #1c304e;
+}
+
+.dark .site-logo {
+  color: #fff;
+}
