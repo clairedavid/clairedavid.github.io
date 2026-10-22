@@ -344,10 +344,11 @@ html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobi
 }
 
 .dark .res-tab-subtitle a {
-  color: rgb(var(--color-primary-400));
-  text-decoration-color: rgba(var(--color-primary-600), 1);
+  color: rgb(var(--color-neutral-50));
+  text-decoration-color: rgba(var(--color-neutral-50), 0.7);
 }
 
 .dark .res-tab-subtitle a:hover {
   text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
 }
