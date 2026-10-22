@@ -36,7 +36,13 @@
         {{- range hugo.Data.talks.themes }}{{ range .projects }}{{ if eq .slug $slug }}{{ $subtitle = .card.subtitle }}{{ end }}{{ end }}{{ end -}}
       {{- end -}}
       {{- with $subtitle }}
+      {{- /* Tab pages (/talks/, /teaching/) are the overviews: Markdown subtitle
+           (so the Contact link works) one size down. Sub-pages keep plain text. */ -}}
+      {{- if $isOverview }}
+      <div class="mt-2 text-base text-neutral-500 dark:text-neutral-400">{{ . | markdownify }}</div>
+      {{- else }}
       <p class="mt-2 text-lg text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+      {{- end }}
       {{- end }}
     </header>
     <section class="max-w-full mt-6 prose dark:prose-invert">
