@@ -3,15 +3,43 @@ layout: "simple"
 title: "About"
 ---
 
-I am a scientist who enjoys fiddling with particle detectors, playing with data, and sharing the beauty of physics, algorithms, and my latest adventures in nature.
+{{% about-switch %}}
+
+{{% about-version "short" %}}
+
+I am a scientist who enjoys fiddling with particle detectors, playing with data, sharing the beauty of physics, algorithms and my latest adventures in nature.
 
 Initially trained as an engineer, I got intrigued by data analysis, so switched to fundamental science and realized a dream: working on one of the largest detectors at CERN.
 
-In 2022, while in my third year as assistant professor, I made a bold move. I asked for a leave of absence to pursue two interests at once: learning the math behind machine learning and teaching in Africa. I eventually resigned my tenure-track position in Canada to relocate to Cape Town and help launch a new master’s in AI for science.
+In 2022, while in my third year as assistant professor, I made a bold move. I asked for a leave of absence to pursue two interests at once: learning the math behind Artificial Intelligence and teaching in Africa. I eventually resigned my tenure-track position in Canada to relocate to Cape Town and became the Academic Director of the inaugural AI for Science Master’s at AIMS South Africa.
 
-There I found a new passion: mentoring. After colliding particles, I can't resist colliding talented students with scholars.
+There I found a new passion: mentoring. After training 300+ students on the foundations of Artificial Intelligence and helping some catch opportunities, I discovered the power of connections.
 
-Curious about my research, teaching, talks, or my recent cycling journey across Canada? Reach out [here]({{< relref "/contact" >}}). I'm open to teaching missions, a physics-ML project, a field trip to help climate scientists, or any adventure I haven't thought of, with or without a bike.
+In 2026, I left Africa to reconnect with Canada. I biked solo across the country and plan to settle in Montreal from 2027. I’m open to teaching missions, physics-AI projects, a field trip to help climate scientists or any adventure I haven’t thought of, with or without a bike.
+
+Enjoy your visit and if curious: [contact me](/contact/).
+
+{{% /about-version %}}
+
+{{% about-version "long" %}}
+
+When I was around 15, I wanted to be a car designer. At the same time, I was pestering my teachers with science questions. It started to become uncomfortable for everyone. Luckily, I was sent to a science camp, where I met people my age having fun with mathematical riddles until late at night. I realized that it was possible to be fond of what we learn at school the way people are into sports, arts or music. At that camp, my new friends showed me a picture of a particle detector. I was struck by the technological beauty. Discomfort turned into fascination. I stopped drawing cars and enrolled in an engineering school.
+
+“How did you make that fancy plot?” I asked a physicist as an intern in Germany during my fourth year of engineering, working on the electronics of the IceCube Neutrino Observatory. The physicist was busy and replied: “You have to do a PhD for that.” So I accepted a PhD offer at the University of Victoria in Canada, to understand how data from particle detectors is processed and fancy plots are made. My PhD was about analyzing data from the ATLAS experiment at the Large Hadron Collider: I lived the dream and spent a year at CERN. More questions pushed me to do a postdoc and eventually I landed a tenure-track position.
+
+It was another question that got me to change gears: “What is the math behind Artificial Intelligence?” In my third year as assistant professor, I was too busy to stop and study the AI tools I used in my research. So I took a leave, taught myself AI, built a course and accepted an invitation to teach it in Africa. I had co-lectured years prior at the Ghanaian centre of the African Institute for Mathematical Sciences (AIMS) during my postdoc. The McDonald Institute sponsored me; in the first half of 2023, I went teaching and gave seminars in eight African countries. I eventually resigned from my tenure-track position in Canada to relocate to Cape Town and become the Academic Director of the inaugural AI for Science Master’s at AIMS South Africa.
+
+There I found a new passion: mentoring. I cannot resist bringing together talented students with scholars. After training 300+ students and helping some catch opportunities, I now ask myself: how can I do more?
+
+In 2026, I left South Africa to focus on personal projects, notably a decade-old dream: a 5,270 km solo bike touring adventure from Victoria to Montreal. I plan to reconnect with Canada and settle in Montreal in 2027.
+
+Curious about my [research](/research/), [teaching](/teaching/), [talks](/talks/) or my recent cycling journey across Canada? [Contact me](/contact/)! I’m open to teaching missions, a physics-AI project, a field trip to help climate scientists or any adventure I haven’t thought of, with or without a bike.
+
+Enjoy your visit!
+
+{{% /about-version %}}
+
+{{% /about-switch %}}
 
 ## In Time and Space {.about-section}
 

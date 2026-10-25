@@ -1,0 +1,130 @@
+/* About opening switch. Scoped under .about-switch; loaded by the
+   about-switch shortcode. Light: navy #1c304e. Dark: white. */
+.about-switch {
+  --as-ink: #1c304e;
+  --as-dim: 0.45;
+}
+
+.dark .about-switch {
+  --as-ink: #fff;
+}
+
+/* The wrapper holds the text, which the shared reading-measure rule in
+   custom.css cannot reach (it only matches direct children of the section). */
+@media (min-width: 768px) {
+  .about-switch {
+    max-width: var(--reading-measure, 700px);
+    margin-inline: auto;
+  }
+}
+
+.about-switch .as-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  color: var(--as-ink);
+}
+
+.about-switch .as-bar[hidden] {
+  display: none;
+}
+
+.about-switch .as-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  cursor: pointer;
+  line-height: 1.25;
+  opacity: var(--as-dim);
+  transition: opacity 0.18s ease;
+}
+
+.about-switch .as-label[data-version="short"] {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.about-switch .as-label[data-version="long"] {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.about-switch .as-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.about-switch .as-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.about-switch .as-clock {
+  flex: none;
+}
+
+/* The active side is full strength. */
+.about-switch:not(.is-long) .as-label[data-version="short"],
+.about-switch.is-long .as-label[data-version="long"] {
+  opacity: 1;
+}
+
+/* Pill: 2px outline, plain round knob. */
+.about-switch .as-switch {
+  position: relative;
+  flex: none;
+  box-sizing: border-box;
+  width: 2.75rem;
+  height: 1.5rem;
+  margin: 0.1rem 0 0;
+  padding: 0;
+  border: 2px solid var(--as-ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--as-ink);
+  cursor: pointer;
+}
+
+.about-switch .as-knob {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: -0.45rem;
+  border-radius: 50%;
+  background: var(--as-ink);
+  transition: transform 0.18s ease;
+}
+
+.about-switch .as-switch[aria-checked="true"] .as-knob {
+  transform: translateX(1.2rem);
+}
+
+.about-switch .as-switch:focus-visible {
+  outline: 2px solid var(--as-ink);
+  outline-offset: 3px;
+}
+
+/* Before the script runs, hide the long version straight away so the page does
+   not flash both. Without scripting the media query does not match, so both
+   versions show. The script then owns the state through [hidden] and .is-on. */
+@media (scripting: enabled) {
+  .about-switch .as-version[data-version="long"]:not(.is-on) {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-switch .as-knob,
+  .about-switch .as-label {
+    transition: none;
+  }
+}
