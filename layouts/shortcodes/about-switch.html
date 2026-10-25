@@ -1,0 +1,35 @@
+{{- /* About opening: a short and a long version of the same text, with a
+     two-state switch. Both versions are in the page HTML (written in
+     content/about/_index.md); assets/js/about-switch.js only shows one and
+     hides the other. Without JS the bar stays hidden (the hidden attribute)
+     and both versions show, one after the other.
+
+     Usage:
+       {{% about-switch %}}
+       {{% about-version "short" %}} ... {{% /about-version %}}
+       {{% about-version "long" %}} ... {{% /about-version %}}
+       {{% /about-switch %}}
+
+     Styles: assets/css/about-switch.css, scoped under .about-switch.
+     Code: assets/js/about-switch.js. No storage and no cookies: the page
+     always opens on the short version. Every URL goes through .RelPermalink;
+     nothing is fetched from a CDN. Output is kept flush left with no blank
+     lines inside the bar, since a {{% %}} shortcode's output goes through the
+     Markdown renderer and an indented line there would become a code block. */ -}}
+{{- $css := resources.Get "css/about-switch.css" | minify | fingerprint -}}
+{{- $js  := resources.Get "js/about-switch.js"  | minify | fingerprint -}}
+{{- $clock := `<svg class="as-clock" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>` | safeHTML -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<div class="about-switch" id="about-switch">
+<div class="as-bar" hidden>
+<span class="as-label" id="as-label-short" data-version="short"><span class="as-name">Short version</span><span class="as-time">{{ $clock }}1 min</span></span>
+<button type="button" class="as-switch" role="switch" aria-checked="false" aria-labelledby="as-label-short as-label-long"><span class="as-knob"></span></button>
+<span class="as-label" id="as-label-long" data-version="long"><span class="as-name">Long version</span><span class="as-time">{{ $clock }}3 min</span></span>
+</div>
+<div class="as-versions">
+
+{{ .Inner }}
+
+</div>
+</div>
+<script src="{{ $js.RelPermalink }}" defer></script>

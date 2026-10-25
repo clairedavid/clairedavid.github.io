@@ -1,0 +1,11 @@
+{{- /* One version of the About opening, used inside {{% about-switch %}}.
+     Usage: {{% about-version "short" %}} Markdown paragraphs {{% /about-version %}}
+     The text stays Markdown in content/about/_index.md; this only wraps it in a
+     block that assets/js/about-switch.js shows or hides. The blank lines
+     around .Inner are what let Markdown render inside the HTML block. */ -}}
+{{- $name := .Get 0 -}}
+<div class="as-version" id="as-version-{{ $name }}" data-version="{{ $name }}">
+
+{{ .Inner }}
+
+</div>

@@ -373,3 +373,55 @@ html.dark #mobile-menu-dialog:not(.mobile-menu-style-dropdown) > label[for="mobi
 .dark .site-logo {
   color: #fff;
 }
+
+/* Links in the content area: underlined (1px, 0.2em offset, as in the tab
+   subtitle), colour untouched in light mode and white in dark mode, hover
+   included. Scoped to #main-content .prose, so the header, menus and footer
+   are out by position. Left alone inside it: footnote markers and back-links,
+   heading anchors, and the self-styled components (.res research and talks
+   pages and cards, .cv, .imap, .pgal, .cf), which each own their link look. */
+#main-content .prose a:not(
+  .footnote-ref,
+  .footnote-backref,
+  .res-card,
+  :is(h1, h2, h3, h4, h5, h6) a,
+  .res a,
+  .cv a,
+  .imap a,
+  .pgal a,
+  .cf a
+) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.dark #main-content .prose a:not(
+  .footnote-ref,
+  .footnote-backref,
+  .res-card,
+  :is(h1, h2, h3, h4, h5, h6) a,
+  .res a,
+  .cv a,
+  .imap a,
+  .pgal a,
+  .cf a
+) {
+  color: rgb(var(--color-neutral-50));
+  text-decoration-color: rgba(var(--color-neutral-50), 0.7);
+}
+
+.dark #main-content .prose a:not(
+  .footnote-ref,
+  .footnote-backref,
+  .res-card,
+  :is(h1, h2, h3, h4, h5, h6) a,
+  .res a,
+  .cv a,
+  .imap a,
+  .pgal a,
+  .cf a
+):hover {
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+}
