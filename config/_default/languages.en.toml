@@ -11,7 +11,7 @@ title = "Claire David"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Experimental particle physicist who likes to bring together detector data with beautiful graphs, complex concepts with simple explanations and talented students with opportunities."
   copyright = "&copy; { year } Claire David"
 
 # [params.author]
