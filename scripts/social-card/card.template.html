@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Social card</title>
+<style>
+  /* Filled in by build.py: @FONTS@, @PHOTO@, @LOGO_PATH@ */
+  @FONTS@
+
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 1200px;
+    height: 627px;
+    background: #1c1c1d;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    height: 58px;
+    margin-top: 29px;
+  }
+
+  .logo { height: 58px; width: auto; display: block; color: #fff; }
+
+  .name {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .tagline {
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    color: rgba(255, 255, 255, 0.8);
+    white-space: nowrap;
+  }
+
+  .tagline .dot { padding: 0 0.4em; }
+</style>
+</head>
+<body>
+  <img class="photo" src="@PHOTO@" alt="">
+  <div class="row">
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="250.4 91.2 523.7 842.7"><g transform="translate(0,1024) scale(0.1,-0.1)" fill="currentColor" stroke="currentColor" stroke-width="120" stroke-linejoin="round"><path d="@LOGO_PATH@"/></g></svg>
+    <div class="name">Claire David</div>
+  </div>
+  <div class="tagline">Particle Physicist<span class="dot">&bull;</span>AI/ML Educator<span class="dot">&bull;</span>Science Enabler</div>
+</body>
+</html>
